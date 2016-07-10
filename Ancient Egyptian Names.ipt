@@ -1,0 +1,681 @@
+// Ancient Egyptian Name Generator
+// July 10th, 2016
+// By The GameDaddy collins.dirk@gmail.com
+//
+//
+
+Table: MasterEgyptianName
+5:[@MaleEgyptianName]
+3:[@FemaleEgyptianName] 
+
+Table: MaleEgyptianName
+19:[@EgyptianMaleSingle]
+1:[EgyptianMaleTheophoric]
+19:[@EgyptianMaleSingle]  [@EgyptianMaleTheophoric]
+1:[@EgyptianMaleTheophoric]  [@EgyptianMaleSingle]
+1:[@EgyptianMaleSingle] Si [@EgyptianMaleTheophoric]  //son of a deity
+
+
+Table:FemaleEgyptianName
+19:[@EgyptianFemaleSingle] (f)
+1:[@EgyptianFemaleTheophoric]
+19:[@EgyptianFemaleSingle] [@EgyptianFemaleTheophoric] (f) 
+1:[@EgyptianFemaleTheophoric] [@EgyptianFemaleSingle] (f)
+1:[@EgyptianFemaleSingle] Sit [@EgyptianFemaleTheophoric] (f)
+
+
+Table: EgyptianMaleSingle
+3:Hapu
+3:Ka-mose
+3:Khamus
+3:Nahi
+3:Pepi
+3:Uoser
+3:Senefer
+A-ne-Djib
+Aa
+Aa-Ib
+Abu
+Abana
+Ai
+Amotu
+An
+3:Ankh                    //Life
+Antef
+Anu
+Apepi
+Ari
+Ashor
+Assa
+Ata
+Ati
+Au
+Ay
+Aya
+Ba
+Ba-en
+Be
+Beh
+Bek
+Beka
+Den
+Djer
+Djet
+Djoser
+Ha-Ka-Hem
+Hannu
+Hapi
+Hi
+Hia
+Hin
+Hori
+3:Hotep
+Hui
+Huni
+Ia-Ib
+Ib            /Truth
+Iby           /Truth
+Im-Hotep
+Ini
+Ipuy
+Iri
+Iuput
+Ka'             //Soul
+Ka              //Soul 
+Ka-kau
+Ka-Kem
+Ka-Men
+Ka-Mose
+Ka-Nefer
+Kebu
+Kebhu
+Ken
+Kha       //Soul
+Kha-Ba
+Kha-Mus
+Khai
+Khamat
+Khem
+Khem-Mose
+Khen
+Khen-Djer
+Kheper
+Kheru
+Khua
+Khufu
+Ki
+Mai
+Mar
+Men
+Menkhtu
+Menna
+Menni
+Mer-Me-Sha
+Mer-y
+Meri
+Meri-Atmu
+Meri-Mose
+Mermer
+Mes-Sui
+Na-Ro
+Na-Ro-Meth
+Nahi
+3:Nakht             //Heart
+Nanai
+Narmer
+Ne-kau
+Neb-ai
+Neb-Ankh
+Neb-Ka
+Neb-Khau
+Neb-Su
+3:Nefer              //Beauty
+Nefer-Hotep
+Nefer-Khau
+Nefer-Mennu
+Neter
+Nub
+Nubhi
+Nuab
+Nuba
+Pa
+Pa-Ari
+Pa-Aru-Sun
+Pa-Aru-Amun
+Pa-Besat
+Pa-Hir
+Pa-If-Ruwy
+Pa-Keti
+Pa-Mu
+Pa-Mose
+Pa-Nauk
+Pa-Eur
+Pa-Hennu
+Pa-Hennu-Kah
+Pe
+Pen
+Pen-Rennu
+Pen-Ta-Ur
+Peni
+Pepi-Nakht
+Pepi-Nakht-Amun
+Per-Hor
+Horus
+Pi-Ankh
+Pi-May
+Pi-Nu-Djem
+Pra
+Pra-Emheb
+Psam
+Psam-Hetek
+Putha
+Sa
+Sa-Nakht
+Sankh
+Sankh-Tawy
+Se-Hetep
+Se-Hetep-Tawy
+2:Sekhem
+Semer-Khet
+Sen-Mesu
+Sen-Ta
+Sen-User
+Seti
+Shepsis
+Shoshenq
+Si-User
+Sinuhe
+Sipar
+Sne-Feru
+Sunanar
+Suanar
+Ta'o
+Taa
+Tai-Nahkt
+Takeloth
+Takhat
+Tcha-n-Hebu
+Tchef
+Tef
+Teta
+Tetu
+Thi
+Thupi
+Tupu
+Iadj-Tawy
+Uah-Ankh
+Uba-Oner
+Ueni
+Una
+Unas
+Unen
+Uoser
+Uner
+Uotmose
+Usati
+2:User
+User-Khor
+Utu
+
+
+Table: EgyptianMaleTheophoric
+30:[@CommonEPrefix] [@Deity] [@CommonESuffix]
+20:[@SimpleEPrefix] [@Deity] [@CommonESuffix]
+10:[@CompoundEPrefix] [@Deity] [@CommonESuffix]
+30:[@CommonEPrefix] [@Deity] [@SimpleESuffix]
+20:[@SimpleEPrefix] [@Deity] [@SimpleESuffix]
+10:[@CompoundEPrefix] [@Deity] [@SimpleESuffix]
+30:[@CommonEPrefix] [@Deity] [@CompoundESuffix]
+20:[@SimpleEPrefix] [@Deity] [@CompoundESuffix]
+10:[@CompoundEPrefix] [@Deity] [@CompoundESuffix]
+3:[@Deity] [@CommonESuffix]
+3:[@Deity] [@SimpleESuffix]
+3:[@Deity] [@CompoundESuffix]
+1:[@Deity] Ka [@Deity]
+1:[@Deity] [@Deity]
+
+
+
+Table: CommonEPrefix
+ Sankh-Ib
+ Si
+ Sit
+
+Table: SimpleEPrefix
+An-
+Ba-
+Djed-
+Iri-
+Ka-
+Khuf-
+Khufi-
+Khaf-
+Khafi-
+Kheper-
+Khu-
+Pa-
+Pai-
+Pedu-
+Pepi-
+Sahu-
+Sekhem-
+Se-
+Sen-
+Shepsis-
+Ta-
+Ur-
+User-
+
+Table: CompoundEPrefix
+A-Ka-Ne
+A-Kheper
+A-Kheper-En
+A-Kheper-Kha
+A-Kheperu
+Akh-En
+Akh-Heb
+Akhen-En
+Shekhen-En
+Ankh-Hes-En
+Ankh-Es-En-Pa
+Ank-Ka-En
+Ankh-Kheperu
+Au-Ib
+Autu-Ib
+Ba-Ka
+Ba-Nen
+Bau-If
+Bek-En
+Bek-Or
+Djed-Ef
+Djed-Kha
+Djeser-Kha
+Djeser-Kheperu
+Hotep-Her
+Hotep-Hi
+Hotep-Ib
+Kha-Ankh
+Kha-Em
+Kha-Hotep
+Kha-Kheper
+Kha-Keru
+Kheper-Ka
+Neb-Hetep
+Neb-Kha
+Neb-Tefa
+Ni-Maat
+Ni-User
+Ni-Khau
+Se-Hotep
+Sekh-Hotep
+Se-Kha-En
+Se-Kheper
+Ser-Kha
+Ser-Kheperu
+Setep-En
+Sotep-En
+Su-En
+Swaj
+Swah-En
+Tas
+Tat-f
+Tat-If
+Tat-Ka
+Tat-Kheru
+Ten-Ti
+Tut-Ankh
+Ua-Ro
+User-En
+User-Kha
+User-Maat
+
+
+Table: EgyptianFemaleSingle
+5:Beket
+5:Hen-He-Net
+5:Meryet
+5:Nebet
+5:Nefert-Ari
+5:Nofret
+5:Senbet
+5:Ta-Kha-et
+An'cher
+A-tu
+Aaht
+Aaht-Atu
+Aat
+Abar
+Ama
+Ankh-Nes-Pepi
+Anqet
+Anqet-Ta-Ti
+Apu
+Asenath
+Bakht-Ur-Nel
+Beket
+Ber-Nerib
+Bet
+Bu-Nefer
+Ha-Nefer
+Hap-Shet-Sut
+Hat-Shepu
+Hemu
+Hen-E-Net
+Hent
+Hent-Er-Nehi
+Hent-Mi-Heb
+Hent-Ta-Mehu
+Henut
+Henut-Sen
+Henut-Tawy
+Hun
+Iput
+Iset
+Iuput
+Ka-Pes
+Kha-Pesh
+Ka-Ramat
+Ka-Ramati
+Kha-Uit
+Kam
+Kama
+Kaeros
+Kero
+Kero-Mame
+Kha
+Kha-Mer
+Kha-Mer-Em-Ebty
+Khent
+Khent-Kau-Es
+Kiya
+Mehet
+Mehet-En-Usekh
+Mehtem-Wes-Khet
+Mer-Es-Ankh
+Mereret
+Meri-s-Ankh
+Meris
+Meri-Taht
+Meryet
+Mut-Emwha
+Neb-Ant
+Neb-Atef
+Neb
+Neb-Et-Tawy
+Neb-Pu
+Nebet
+Nebet-Em-Nub
+Nebt-Tawy
+Nefer-Hotep
+Nefer-Thi
+Nefer-Titi
+Nefert
+Nefert-Ari
+Nefert-Iri
+Neferu
+Nefret
+Nefret-Iti
+Nefru
+Nekebet
+Nemathep
+Nena
+Natches
+Natches-Ankh
+Niyt
+Niyt-Aqert
+Nodjme
+Nodjmet
+Nofret
+Nofret-Titi
+Nofret-Ari
+Nub-Em-Heb
+Nub-Em-Khu
+Nub-Khos
+Nub-Khe-Sed
+Ti-N-An
+Ri-N-An
+Ro-Ant
+Satati
+Senbet
+Seneb-Ib
+Seneb-Sen
+Shepsis      //Noble
+Ta-Biry
+Ta-Her
+Ta-Kha'et
+Ta-Sheri
+Ta-Uosret
+Tak-Her-Eden-Eset
+Tat-Ti-Tes
+Tem
+Tent
+Tent-Opet
+Tentheta
+Tentsai
+Teti-Sheret
+Ti'a
+Tua-Nefert
+Tuya
+Udjeb-Ten
+Ueret-Im-Tes
+Usekh
+Usekh-Mehi
+
+
+Table: EgyptianFemaleTheophoric
+30:[@CommonEPrefixF] [@Deity] [@CommonESuffixF]
+30:[@SimpleEPrefixF] [@Deity] [@CommonESuffixF]
+30:[@CompoundEPrefixF] [@Deity] [@CommonESuffixF]
+30:[@CommonEPrefixF] [@Deity] [@SimpleESuffixF]
+30:[@SimpleEPrefixF] [@Deity] [@SimpleESuffixF]
+30:[@CompoundEPrefixF] [@Deity] [@SimpleESuffixF]
+30:[@CommonEPrefixF] [@Deity] [@CompoundESuffixF]
+30:[@SimpleEPrefixF] [@Deity] [@CompoundESuffixF]
+30:[@CompoundEPrefixF] [@Deity] [@CompoundESuffixF]
+10:[@Deity] [@CommonESuffixF]
+10:[@Deity] [@SimpleESuffixF]
+10:[@Deity] [@CompoundESuffixF]
+1:[@Deity] Ka [@Deity]
+1:[@Deity] [@Deity]
+1:[@Deity] an [@Deity]
+
+Table: Deity
+Anubis
+Hathor
+3:Ra
+3:Re
+3:Rah
+Horus
+Isis
+Neith
+Nepthys
+Thoth
+Thoth
+Amun
+Amon
+Netjeru
+Netjer
+3:Aah
+3:Amun
+3:Heru (f)
+3:Het-Heru (f)
+3:Mentu
+3:Memphis (f)
+3:Mut (f)
+3:Ptah
+Aapep
+Amen
+Amon
+Anpu
+Bes
+Hapi
+Heru
+Hor
+Khensu
+Kheper
+Khonsu
+Khnum
+Mentu
+Min
+Nefer-Temi
+Nefer-Temu
+Re-Amun
+Seb
+Sebek
+Sebet
+Sebek
+Seker
+Set
+Shu
+Tehuti
+Anuket (f)
+Aset (f)
+Iset (f)
+Bast (f)
+Bastet (f)
+Het-Heru (f)
+Maat (f)
+Nek-Heb (f)
+Nebt-Iyt (f)
+Niyt (f)
+Nut (f)
+Sekhmet (f)
+
+
+Table: CommonEPrefixF
+Maat-Ka-
+Mer-En-
+Meri-
+Meryet-
+Nefer-Ka
+
+Table: SimpleEPrefixf
+Mer-
+Meri-
+Mery-
+Meryet-
+Mi-
+Nakhtu-
+Neb-
+Nefer-
+Neferu-
+Neha-
+Netchem-
+Ta-
+
+
+Table: CompoundEPrefixF
+Ankh-Nes-Mery
+Maat-Ib
+Maat-Ka
+Maat-Kha
+Maat-Kheru
+Maat-Neb
+Mer-Ne
+Mer-Nefer
+Mer-Sekhem
+Mer-Tefa
+Mer-User
+Mery-En
+Mery-Ib
+Mery-Kau
+Neb-Ef-Atu
+Neb-ka
+Neb-Nefer
+Neb-Sem
+Neb-Tefa
+Ni-Ankh
+Ni-Kha-Ni-Maat
+Ni-Maat
+Ni-User
+Nub-Khau
+Nub-Kheper
+Nub-Maat
+Rekh-Mi
+Se-Nakht-En
+Se-Nefer
+Se-User
+Tat-F
+Tach-Nem
+Tat-ka
+U-Chta
+U-Ai-Ib
+User-En
+User-Ka
+User-Maat
+
+
+Table: CommonESuffixF
+ -Nakht
+ -Neferu
+ -Nofret
+ -Amun
+
+Table: SimpleESuffixF
+ -Mas
+ -Nakht
+ -Neb
+ -Nefer
+ -Nefert
+ -Neferu
+ -Nofre
+ -Nofret
+ -Sheri
+ -Tifi
+ -Tuya
+ -u
+ -Usha
+ -Amun
+
+Table: CompoundESuffixF
+-Em-An
+-Em-heb
+-Em-Nesu
+-Em-Sa-F
+-En-Maat
+-En-Sau-F
+-Rekh-Nefer
+-Ta-Sherit
+-Tat-F
+
+Table: CommonESuffix
+-Em-Har
+-Em-Hat
+-Em-Hotep
+-Hotep
+-Mose
+-En-Seneth
+
+Table: SimpleESuffix
+-A
+-Aha
+-Amu
+-Irdis
+-Kha
+-Khau
+-Khet
+-Khu
+-Mas
+-Mose
+-Seneb
+-Shep
+-Shepses
+-Suten
+-Amen
+-U
+-Uben
+
+
+Table: CompoundESuffix
+-Em-Ant
+-Em-Het
+-En-Seneb
+-Her-Khopesh
+-I-Seneth
+-I-Seneb
+-Khu-Nes
+-Khufeu
+-Khures
+-Se-Kheper
+-Tot-f
+-Ut-Ankh-Es
