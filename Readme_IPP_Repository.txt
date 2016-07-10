@@ -13,12 +13,14 @@
 // filesare stored first in the cloud, then I get an additional local backup
 // on the 4Tb HDD backup disk.
 
-// GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+
 // These generator config files in the IPP Repository are being made available 
 // to you the reader under the GNU GPL3 public license, the terms of which are
-// outlined below.
+// outlined below. 
 
 // Copyright (C) 2016, Dirk T. Collins
+
+// GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
