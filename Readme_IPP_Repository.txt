@@ -1,4 +1,5 @@
 // 9 July 2016 
+// last update - 24 September, 2016
 // Email: collins.dirk@gmail.com
 
 // IPP Repository on Github
@@ -12,6 +13,17 @@
 // important files on a 4 Tb disk archive. Now, with GIT, my random generator 
 // filesare stored first in the cloud, then I get an additional local backup
 // on the 4Tb HDD backup disk.
+
+//File List
+//Altanis.ipt - Judges Guild Barbarian Altanis random name generator
+//Ancient Egyptian Names.ipt <-- Self Explanatory
+//cityname.ipt - random fantasy city name generator
+//GNU Public License v3 - open sopurce license to use these generator files
+//Mercenaries.ipt - Random OGL compatible Mercenary generator
+//Milname.ipt - Random Fantasy Mercenary Unit name Generator
+//Starship Name Generator <-- self explanatory
+//StarsystenNames <-- self explanatory  
+
 
 // GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 // These generator config files in the IPP Repository are being made available 

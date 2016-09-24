@@ -1,0 +1,416 @@
+// Table of Random Mercenary Unit Names
+// by the GameDaddy
+// collins.dirk@gmail.com
+// 2016-09-15
+
+
+Table: MercenaryNames
+[@CommanderName] [@GroupName]
+[@DescriptionName] [@GroupName]
+[@DescriptionName] [@DescriptionName] [@GroupName]
+[@GroupName] of the [@PlaceName]
+[@PlaceName] [@GroupName]
+[@VirtueName] [@GroupName]
+[@AnimalName] [@GroupName]
+[@VirtueName] [@AnimalName] [@GroupName]
+[@ReligionName] [@GroupName]
+[@WatercourseName] [@GroupName]
+[@GroupName] from [@OrderName]
+[@GroupName] of [@OrderName]
+
+
+Table: CommanderName
+use: nbos\Names\Human.ipt
+[@MasterHumanName]
+
+Table: GroupName
+[@TeamName]
+[@SoldiersName]
+[@WardersName]
+[@MercenaryCall]
+[@GearName]
+[@CreaturesName]
+
+
+Table: TeamName
+Armada
+Army
+Battalion
+Regiment
+Company
+Brigade
+Cohort
+Light Horse
+Medium Horse
+Heavy Horse
+Contingent
+Division
+Fleet
+Force
+Garrison
+Guard
+Legion
+Militia
+Patrol
+Phalanx
+Platoon
+Riders
+Section
+Sentinel
+Sentry
+Squad
+Squadron
+Troop 
+Vanguard
+ 
+Table: SoldiersName
+Avengers
+Champions
+Elite
+Fighters
+Janissaries
+Marines
+Paladins
+Riders
+Skirmishers
+Soldiers
+Troopers
+Veterans
+Victors
+Warriors
+Guards
+
+Table: WardersName
+Crusaders
+Defenders
+Guardians
+Guards
+Keepers
+Knights
+Lords
+Preservers
+Protectors
+Rangers
+Sentinels
+Sentries
+Warders
+Wardens
+Watchers
+
+Table: MercenaryCall
+Bandits
+Destroyers
+Devourers
+Marauders
+Pirates
+Raptors
+Reavers
+Mercenaries
+Hunters
+Archers
+Bowmen
+Knights
+Swordsmen
+
+Table: GearName
+Arrows
+Axes
+Blades
+Bows
+Bucklers
+Claws
+Daggers
+Darts
+Fangs
+Fists
+Flails
+Guantlets
+Halberds
+Hammers
+Helms
+Knives
+Lances
+Maces
+Pikes
+Scythes
+Shields
+Spears
+Swords
+Talons
+Teeth
+
+Table: CreaturesName
+Angels
+Basilisks
+Bears
+Cobras
+Demons
+Devils
+Eagles
+Dragons
+Falcons
+Griffins
+Foxes
+Hounds
+Jaguars
+Lions
+Panthers
+Rats
+Tigers
+Scorpions
+Sharks
+Vipers
+Wolves
+
+Table: DescriptionName 
+[@ColorName]
+[@OtherName]
+[@KnightlyName]
+
+Table: ColorName
+Black
+White 
+Red
+Gold
+Silver
+Iron
+Blue
+Green
+Grey
+Gray
+
+Table: OtherName
+Battle
+Blood
+Bolt
+Bone
+Chaos
+Dark
+Death
+Dire
+Doom
+Fire
+Flame
+Free
+High
+Law
+Light
+Lightning
+Moon
+Night
+Rune
+Sea
+Skull
+Star
+Storm
+Sun
+Thunder
+Thunderbolt
+Torch
+War
+Wave
+Wind
+Wing
+Wrath
+Big
+Small
+Brutal
+Malevolent
+Adroit
+Adept
+Nimble
+Spry
+Beserkers
+Ferocious
+Fiery
+Savage
+Wild
+Eminent
+Grand
+Majestic
+Noble
+Dawn
+Dusk
+Fly
+Travel
+Bane
+
+
+Table: KnightlyName
+Lily
+Rose
+Oak
+Rowan
+Eagle
+Falcon
+Hawk
+Swan
+Dragon
+Griffin
+Hart
+Leopard
+Lion
+Panther
+Hand
+Harp
+Shell
+Sun
+Talisman
+
+
+
+
+Table: PlaceName
+East
+West
+North
+South
+High
+Low
+Old
+New
+Mountain
+Cliff
+Valley
+River
+Lake
+Ocean
+Sea
+Field
+Border
+Tomb
+Castle
+Keep
+Plains
+Swamp
+Desert
+Field
+Farm
+Forest
+Island
+Shore
+Bay
+Town
+Ton
+Wood
+Woods
+Swamp
+ 
+
+
+Table: VirtueName
+Noble
+Majestic
+Grand
+Royal
+Honorable
+Virtuous
+Brave
+Bold
+Courageous
+Bright
+Clear
+
+
+Table: AnimalName
+Ape
+Bear
+Boar
+Bull
+Cat 
+Deer
+Dog
+Fox
+Horse
+Jaguar
+Leopard
+Lion
+Lizard
+Mole
+Otter
+Ox
+Panther
+Rat
+Scorpion
+Snake
+Spider
+Tiger
+Toad
+Weasel
+Wildcat
+Wolf
+Bird
+Dove
+Eagle
+Falcon
+Hawk
+Lark
+Nightingale
+Owl
+Peacock
+Raven
+Swan
+Crab
+Eel
+Fish
+Octopus
+Pike
+Shark
+Whale
+Gargoyle
+Giant
+Goblin
+Harpy
+Nymph
+Ogre
+Phoenix
+Satyr
+Sirens
+Sphinxes
+Slyphs
+Trolls
+
+
+
+Table: ReligionName
+Clerics
+Priests
+Order
+Saints
+Scholars
+Scribes
+Healers
+Friars
+Holy Order
+Unholy Order
+
+
+Table: WatercourseName
+River
+Lake
+Ocean
+Sea
+Stream
+Brook
+Well
+Spring
+
+Table: OrderName
+the Alliance
+the Association
+the Band
+the Brotherhood
+the Cabal
+the Circle
+the Conclave
+the Fellowship
+the Fraternity
+the Guild
+the League
+the Order
+the Sisterhood
+the Society
+the Chain
+
+
+

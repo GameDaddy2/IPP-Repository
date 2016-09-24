@@ -1,0 +1,417 @@
+// Mercenaries for D&D
+// By the GameDaddy Collins.dirk@gmail.com
+// 2016/9/22
+
+Table: MakeMercenaries
+shuffle: skills
+Prompt: Type {Light Foot|Medium Foot|Heavy Foot|Armored Foot|Light Cavalry|Medium Cavalry|Heavy Cavalry|Archers|}
+[@{$prompt1}]
+
+Table: Light Foot
+SET: hd={1d3}
+DEFINE: hp={hd}*10
+2:Light Foot, HD {hd}, HP {hp}, wearing leather armor and carrying medium wooden shields, AC 6, carrying a [@Lightweapons]   \n Skills [!2 skills >> implode], cost 2Gp per month.
+1:Light Foot, HD {hd}, HP {hp}, wearing scale armor and carrying medium wooden shields, AC 5, carrying a [@Lightweapons]  \n Skills [!2 skills >> implode], cost 2Gp per month.
+
+Table: Lightweapons
+short sword 1d6, and dagger 1d4.
+longsword 1d8, and dagger 1d4.
+javelins x5 1d6, and dagger 1d4.
+spear 1d6, and dagger 1d4.
+halfspear 1d6-1, and dagger 1d4. 
+handaxe 1d6, and dagger.
+warhammer 1d6, and dagger.
+club 1d6, and dagger.
+quarterstaff 1d6/1d6, and dagger.
+mace 1d6, and dagger
+
+Table: Medium Foot
+SET: hd={1d4}
+DEFINE: hp={hd}*10
+2:Medium Foot, HD {hd}, HP {hp}, wearing scale armor and carrying medium wooden shields, AC 5, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+Medium Foot, HD {hd}, HP {hp}, wearing brigandine armor and carrying medium wooden shields, AC 5, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+Medium Foot, HD {hd}, HP {hp}, wearing cuir boile armor and carrying medium wooden shields, AC 6, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+Medium Foot, HD {hd}, HP {hp}, wearing lamellar armor and carrying medium wooden shields, AC 6, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+Medium Foot, HD {hd}, HP {hp}, wearing metal lamellar armor and carrying medium wooden shields, AC 5, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+Medium Foot, HD {hd}, HP {hp}, wearing middle eastern armor and carrying medium wooden shields, AC 6, carrying a [@Mediumweapons]   \n Skills [!3 skills >> implode], cost 2 Gp, 5 Sp per month.
+
+Table: Mediumweapons
+2:short sword 1d6, and dagger 1d4.
+2:longsword 1d8, and dagger 1d4.
+2:longsword 1d8, shortsword 1d6 and dagger 1d4
+2:javelins x5 1d6, and dagger 1d4.
+2:spear 1d6, and dagger 1d4.
+2:longsword 1d8, spears x3 1d6, and dagger 1d4
+2:heavy warhammer 1d8, and dagger.
+2:heavy mace 1d8, short sword 1d6, and dagger 1d4
+2:mace 1d6, and dagger 1d4
+2:polearm - [@polearm], and dagger 1d4
+celtic broadsword 1d6 and dagger
+nine-ring broadsword 1d6 and dagger
+egyptian bronze axe 1d6
+bearded axe 2d6
+assyrian bronze axe 1d6
+
+
+
+Table: Heavy Foot
+SET: hd={1d5}
+DEFINE: hp={hd}*10
+2:Heavy Foot, HD {hd}, HP {hp}, wearing chainmail armor and carrying medium steel shields, AC 4, carrying a [@Heavyweapons]   \n Skills [!4 skills >> implode], cost 2 Gp, 5 Sp per month.
+Heavy Foot, HD {hd}, HP {hp}, wearing banded mail and carrying medium steel shields, AC 3, carrying a [@Heavyweapons]   \n Skills [!4 skills >> implode], cost 2 Gp, 5 Sp per month.
+Heavy Foot, HD {hd}, HP {hp}, wearing bronze breast plate and carrying medium steel shields, AC 3, carrying a [@Heavyweapons]   \n Skills [!4 skills >> implode], cost 2 Gp, 5 Sp per month.
+Heavy Foot, HD {hd}, HP {hp}, wearing silver breast plate and carrying medium steel shields, AC 3, carrying a [@Heavyweapons]   \n Skills [!4 skills >> implode], cost 2 Gp, 5 Sp per month.
+Heavy Foot, HD {hd}, HP {hp}, wearing splint mail and carrying medium steel shields, AC 2, carrying a [@Heavyweapons]   \n Skills [!4 skills >> implode], cost 2 Gp, 5 Sp per month.
+
+
+Table: Heavyweapons
+broadsword 1d8, shortsword 1d6, and dagger 1d4 
+longsword 1d8, and dagger 1d4.
+longsword 1d8, shortsword 1d6 and dagger 1d4
+3x spear 1d6, broadsword 2d4, and dagger 1d4.
+Battleaxe 1d10, and dagger 1d4
+heavy warhammer 1d8, and dagger.
+heavy mace 1d8, short sword 1d6, and dagger 1d4
+flail 1d8, and dagger 1d4
+heavy flail 1d10, and short sword 1d6
+polearm - [@polearm], short sword 1d6, x2 dagger 1d4
+longspear 2d4, short spear 1d6, and dagger 1d4
+
+
+
+Table: Armored Foot
+SET: hd={1d6}
+DEFINE: hp={hd}*10
+Armored Foot, HD {hd}, HP {hp}, wearing half plate armor and carrying large steel shields, AC 2, carrying a [@Armoredweapons]   \n Skills [!5 skills >> implode], cost 5 Gp per month.
+Armored Foot, HD {hd}, HP {hp}, wearing full platemail and carrying large steel shields, AC 1, carrying a [@Armoredweapons]   \n Skills [!5 skills >> implode], cost 5 Gp per month.
+Armored Foot, HD {hd}, HP {hp}, wearing roman armor and carrying large steel shields, AC 3, carrying a [@Armoredweapons]   \n Skills [!5 skills >> implode], cost 5 Gp per month.
+
+Table: Armoredweapons
+longsword 1d8, shortsword 1d6, and dagger 1d4
+broadsword 2d8 and short sword 1d6
+two-handed sword 1d10, and dagger 1d4
+great two-handed sword 1d12, and dagger 1d4
+battleaxe 1d12, short sword 1d6, and dagger 1d4
+double-bladed battlexe 1d12, short sword 1d6, and dagger
+polearm - [@polearm], short sword 1d6, x2 dagger 1d4
+longspear 1d8, shortsword 1d6, and dagger 1d4
+bastard sword 1d8+1, and dagger 1d4
+great scimitar 2d6, and x3 dagger 1d4
+
+
+Table: Light Cavalry
+SET: hd={1d4+1}
+DEFINE: hp={hd}*10
+Light Cavalry, HD {hd}, HP {hp}, wearing leather armor and carrying medium wooden shields, AC 6, carrying a [@LtCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Light Cavalry, HD {hd}, HP {hp}, wearing scale mail and carrying medium wooden shields, AC 5, carrying a [@LtCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Light Cavalry, HD {hd}, HP {hp}, wearing studded lather armor and carrying medium wooden shields, AC 5, carrying a [@LtCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+
+Table: LtCavWeapons
+3:x3 spear 1d6, short sword 1d6, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+3:x3 spear 1d6, long sword 1d8, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+3:x3 spear 1d6, long sword 1d8, short sword 1d6, dagger 1d4 \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+3:x3 spear 1d6, saber 1d6, dagger 1d4 \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+2:x3 light lances 1d8, short sword 1d6, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+2:x3 light lances 1d8, scimitar 1d8, dagger 1d4, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+2:x3 medium lances 1d10, longsword 1d8, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+2:x3 medium lances 1d10, saber 1d6, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+1:heavy lance 1d12, dagger 1d4, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+1:heavy lance 1d12, dagger 1d4, \n light warhorse hd 2, AC 7, dmge/attk 1d4, 1d4, 1d4+1, hoof, hoof, bite, mv 24, carrying capacity 3000
+
+
+Table: Medium Cavalry
+SET: hd={1d4+2}
+DEFINE: hp={hd}*10
+2:Medium Cavalry, HD {hd}, HP {hp}, wearing leather armor and carrying medium wooden shields, AC 6, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+2:Medium Cavalry, HD {hd}, HP {hp}, wearing scale armor and carrying medium wooden shields, AC 5, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+2:Medium Cavalry, HD {hd}, HP {hp}, wearing brigandine armor and carrying medium wooden shields, AC 5, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Medium Cavalry, HD {hd}, HP {hp}, wearing cuire boile armor and carrying medium wooden shields, AC 6, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Medium Cavalry, HD {hd}, HP {hp}, wearing lamellar armor and carrying medium wooden shields, AC 6, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Medium Cavalry, HD {hd}, HP {hp}, wearing metal lamellar armor and carrying medium wooden shields, AC 5, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+Medium Cavalry, HD {hd}, HP {hp}, wearing middleeastern armor and carrying medium wooden shields, AC 5, carrying a [@MdmCavweapons]   \n Skills [!5 skills >> implode], cost 10 Gp per month.
+
+
+Table: MdmCavWeapons
+Roll: 1d100
+01-05:x3 light lances 1d8, short sword 1d6, \n medium warhorse hd 2+1, AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+06-10:x3 light lances 1d8, scimitar 1d8, dagger 1d4, \n medium warhorse hd 2+1 AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+11-30:x3 medium lances 1d10, longsword 1d8, \n medium warhorse hd 2+1, AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+31-50:x3 medium lances 1d10, saber 1d6, \n medium warhorse hd 2+1, AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+51-60:heavy lance 1d12, dagger 1d4, \n medium warhorse hd 2+1, AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+61-70:heavy lance 1d12, dagger 1d4, \n medium warhorse hd 2+1, AC 7, dmge/attk 1d4+1, 1d4+1, 1d6 hoof, hoof, bite, mv 18, carrying capacity 3750
+61-65:x3 medium lances 1d10, longsword 1d8, \n griffon hd 3, AC 3, dmg/attk 1d4, 1d4, 2d8, claw, claw, bite, mv 12/30, carrying capacity 3750, flyer, attk horses 
+66-70:x3 medium lances 1d10, longsword 1d8, \n unicorn hd 4, AC 2, dmge/attck 1d8, 1d8, 2d8 hoof, hoof, horn, mv 24, carrying capacity 3750 + dimension door
+71-75:x3 medium lances 1d10, longsword 1d8, \n pegasus hd 2+2, AC 6, dmge/attk 1d8, 1d8 hoof, hoof, mv 24/48, carrying capacity 3750, flyer 
+76-80:x3 medium lances 1d10, longsword 1d8, \n hippogriff hd 3+1, AC 5, dmge/attk 1d6 claw, 1d6 claw, 1d10 bite, mv 18/36, carrying capacity 3750, flyer, attk pegasus
+81-85:x3 light lances 1d8, longsword 1d8, \n dire wolves hd 6d8, AC 6, dmge/attk bite 1d12, mv 10, carrying capacity 800  
+86-90:x3 light lances 1d8, shortbow 1d6, \n dire wolves hd 6d8, AC 6, dmge/attk bite 1d12, mv 10, carrying capacity 800
+91-93:x3 medium lances 1d10, longsword 1d8, \n giant lion hd 9d8, AC 4, dmge/attk claw 1d8+1, claw 1d8+1, Bite 1d8+2, carrying capacity 1000
+94:x3 medium lances 1d10, longsword 1d8, \n giant panther hd 8d8, AC 7, dmge attk claw 1d8, claw 1d8, bite 1d12, mv 8, carrying capacity 800 
+95:x3 medium lances 1d10, longsword 1d8, \n giant tiger hd 7d8, AC 6, dmge/attk claw 1d10, claw 1d10, bite 2d6, mv 8, carrying capacity 600  
+96:x3 medium lances 1d10, longsword 1d8, \n winged giant panther hd 8d8, AC 7, dmge/attk claw 1d8, claw 1d8, bite 1d12, mv 8/24, carrying capacity 800, flyer
+97-98:x3 light lances 1d8, longsword 1d6, \n giant ferret or weasel hd 3d8, AC 4, dmge/attk bite 1d6+3, mv 8, carrying capacity 700
+99:x3 light lances 1d8, longsword 1d6, \n giant stag hd 3+2, AC 5, dmge/attk antlers 3d4, mv 12, carrying capacity 1100
+100:x3 light lances 1d8, battleaxe 1d12, \n giant boar hd 5d8, AC 4, dmge/attk tusks 3d8, mv 8, carrying capacity 1600       
+
+
+
+
+86–87 Giant eagle
+90–91 Elephant or oliphant
+94–95 Giant lizard
+
+
+
+Table: Heavy Cavalry
+SET: hd={1d6+2}
+DEFINE: hp={hd}*10
+Heavy Cavalry, HD {hd}, HP {hp}, wearing full plate armor and carrying large steel shields, AC 1, carrying a [@HvyCavWeapons]   \n Skills [!5 skills >> implode], cost 20 Gp per month.
+Armored Cavalry, HD {hd}, HP {hp}, wearing half plate armor and carrying large steel shields, AC 2, carrying a [@HvyCavWeapons]   \n Skills [!5 skills >> implode], cost 20 Gp per month.
+
+Table: HvyCavWeapons
+Roll: 1d100
+01-30:x3 medium lances 1d10, longsword 1d8, \n heavy warhorse hd 3, AC 7, dmge/attk hoof 1d8, hoof 1d8, bite 1d8, mv 12, carrying capacity 4500
+31-60:heavy lance 1d12, two-handed sword 1d12, \n heavy warhorse hd 3, AC 7, dmge/attk hoof 1d8, hoof 1d8, bite 1d8, mv 12, carrying capacity 4500
+61-65:longspear x3 1d8, shortbow 1d6, \n elephant HD 8d8, AC 6, Dmge/attk 1d20 stomp, 1d20 footstomp, 1d12 Tusks, mv 12, carrying capacity 12,000 (up to 8 riders)
+66-70:longspear x3 1d8, shortbow 1d6, \n mastodon HD 12d8, AC 3, Dmge/attk 1d10x3 stomp, 1d10x3 footstomp, 2d10 Tusks, mv 12, carrying capacity 16,000 (up to 12 riders)
+71-75:longspear x3 1d8, shortbow 1d6, \n dire mastodon HD 20d8, AC 2, Dmge/attk 2d10 footstomp, 2d10 footstomp, 3d8 Tusks, mv 12, carrying capacity 20,000 (up to 20 riders)
+76-80:shortbow 1d6, longsword 1d8, dagger 1d4, \n giant eagle HD 6 AC 6, Dmge/Attk claw 1d6, claw 1d6, bite 2d6, mv 6/48 carrying capacity 800, flyer
+81-82:x3 medium lances 1d10, longsword 1d8, dagger 1d4, \n Chimera HD 9, AC 4, Dmge/Attk claw 1d3, claw 1d3, head horns 1d4, head lion bite 2d4, head dragon bite 3d4, mv 12/18, carrying capacity 2000, flyer
+83-85:x3 medium lances 1d10, longsword 1d8, \n Giant Lizard HD 4+1 AC 5, Dmge/attk 1d10 Bite, mv 18, carrying capacity 2000
+86:x3 medium lances 1d10, longsword 1d8, dagger 1d4, \n Manticore HD 6+1, AC 4, dmge/attk 2x claw 1d3, bite 1d8, 2d12 tail spikes 1d6, mv 12/18, carrying capacity 2000, flyer
+87:x3 shortbow 1d6, longsword 1d6, \n Pteradactyl HD 1d8, AC 7, Dmge/attk beak 2d4, mv 6/18, carry capacity 350, flyer 
+88:x3 medium lances 1d10, longsword 1d8, dagger 1d4, \n Pterandon HD 5, AC 6, Dmge/attk beak 1d12, mv 12/24, carrying capacity 800, flyer  
+89:heavy lance 1d12, two-handed sword 1d12, longbow 1d8, \n Pterosaur HD 10, AC 5, Dmge/attk beak 3d6, mv 6/18, carrying capacity 2000, 2 riders, flyer 
+90:x3 shortbow 1d6, longsword 1d8, \n Small Roc HD 6, AC 4, dmge/attk 2x claw 1d4+1, bite 2d6, mv 2/6, carrying capacity 275, flyer
+91:x3 longbow 1d8, longsword 1d8, \n Medium Roc HD 12, AC 2, dmge/attk 2x claw 1d8, bite 2d10, mv 2/6, carrying capacity 1250, 2 riders, flyer
+92:x3 longbow 1d8, longsword 1d8, dagger 1d4 \n Giant Roc HD 36, AC 0, dmge/attk 2x claw 3d6, bite 8d6, mv 2/6, carrying capacity 6250, 6 riders, flyer
+93-96:heavy lance 1d12, two-handed sword 1d12, longbow 1d8, \n  Sphinx HD 12, AC 0, dmge/attk 2x claws 1d6, bite 2d8, mv 18/36, carrying capacity 4,000, flyer
+97:heavy lance 1d12, two-handed sword 1d12, longbow 1d8, \n Wyvern HD 7, AC 3, dmge/attk bite 2d8, sting 1d6 + poison, mv 9/24, carrying capacity 6,000, flyer
+98-100:heavy lance 1d12, two-handed sword 1d12, longbow 1d8, \n [@DragColor] Dragon HD 10, AC 2, dmge attk 2x claws 3d8, bite 3d10, x2 footstamp 1d4+2, tail lash 2d8, wing buffet x2 1d4, dragon breath, mv 12/30, carrying capacity 12,000, flyer 
+  
+  
+Table: DragColor
+Red
+White
+Black
+Blue
+Green
+Yellow
+Copper
+Silver
+Gold
+Crystal
+Onxy
+Jade
+Sapphire
+Ruby
+Amber
+Scintillating
+Metallic
+Spirit
+Bone
+Pearl
+Diamond
+Opal
+Azure
+Teal
+
+Table: Archers
+SET: hd={1d6}
+DEFINE: hp={hd}*10
+Light Bowmen, HD {hd}, HP {hp}, wearing leather armor, AC 7, carrying a shortbow 1d6, longsword 1d8,  \n Skills [!2 skills >> implode], cost 5 Gp per month.
+Light Bowmen, HD {hd}, HP {hp}, wearing studded leather armor, AC 6, carrying a shortbow 1d6, short sword 1d6, and dagger 1d4. \n Skills [!2 skills >> implode], cost 5 Gp per month.
+Mounted Light Archers, HD {hd}, HP {hp}, wearing leather armor, AC 7, carrying a shortbow 1d6, short sword 1d6, and dagger 1d4.\n Light Horse HD 2, AC 7, dmge/attk 2X 1d3 hooves, 1d6 bite \n Skills [!2 skills >> implode], cost 5 Gp per month.
+Heavy Crossbowmen, HD {hd}, HP {hp}, wearing chainmail armor, AC 5, carrying a heavy crossbow 1d8, long sword 1d8, and dagger 1d4. \n Skills [!3 skills >> implode], cost 5 Gp per month.
+Longbowmen, HD {hd}, HP {hp}, wearing chainmail armor, AC 4, carrying a longbow 1d8, longsword 1d8, and dagger 1d4.  \n Skills [!3 skills >> implode], cost 5 Gp per month.
+Mounted Crossbowmen HD {hd}, HP {hp}, wearing leather armor, AC 7, carrying a heavy crossbow 1d8, longsword 1d6, and dagger 1d4.\n mule HD 1, AC 8, dmge/attk rear kick 1d6, 1d6 bite \n Skills [!4 skills >> implode], cost 5 Gp per month.
+Peltast, HD {hd}, HP {hp}, wearing leather armor, AC 7, carrying a sling 1d4,  \n Skills [!2 skills >> implode], cost 5 Gp per month.
+Javelin Thrower, HD {hd}, HP {hp}, wearing leather armor, AC 7, carrying 5x javelin 1d6, short sword 1d6, dagger 1d6  \n Skills [!2 skills >> implode], cost 5 Gp per month.
+
+
+Table: polearm
+halberd 1d10
+axe, jedburg 1d8+2
+axe, lochaber 1d10
+poleaxe 1d12
+bardiche 1d10
+bec de corbin 1d10
+billhook 1d6 and chance to disarm
+demi-lune 1d10
+fauchard 1d8+1
+fauchard fork 1d10
+fauchard-guisarme 1d8
+military fork 1d10 and chance to disarm
+glaive fork 1d10 and chance to disarm
+glaive guisarme 1d10
+guisarme fork 2d4 and a chance to disarm
+hook-fauchard 1d12 and a chance to disarm
+knobkerrie 1d10
+korseke 1d6
+lucerne hammer 1d12+1
+man-catcher (special)
+partizan 1d10 plus chance to disarm
+partizan ox-tongue 1d12 plus chance to disarm
+pike and awl 1d8
+sabre axe 1d10
+scorpion 1d10
+spear guisarme 1d10
+tetsubo 1d10
+voulge 1d10
+voulge fork 1d10 plus chance to disarm
+voulkge guisarme 1d10
+
+Table: Skills
+intimidation (str)
+wrestling (str)
+alchemy (int)
+alternate magics (int)
+art [@Arttype] (int)
+artillery (int)
+siege equipment (int)
+craft [@Crafttype] (int)
+disguise (int)
+engineering (int)
+fire-building (int)
+healing (wis)
+hunting (int)
+knowledge [@KnowledgeType] (int)
+labor (int)
+language (choose a new language) (int)
+lip reading (int)
+mapping/cartography (int)
+tactics (int)
+nature lore (int)
+navigation (int)
+planar geography (int)
+magic (int)
+metallurgy (int)
+shipbuilding (int)
+arctic survival (int)
+desert survival (int)
+jungle survival (int)
+outdoor survival (int)
+water survival (int)
+mountain survival (int)
+snares (int)
+tracking (int)
+veterinary healing (int)
+animal trainer (choose type) (wis)
+bravery (wis)
+caving or spelunking (wis)
+ceremony (choose religion or diety) (wis)
+danger sense (wis)
+detect deception (wis)
+gambling (wis)
+law and justice (choose culture) (wis)
+mysticism (wis)
+acrobatics (dex)
+alertness (dex)
+blind shooting (dex)
+cheating (dex)
+escape (dex)
+mountaineering (dex)
+piloting sailing (dex)
+piloting airship (dex)
+piloting riverboat or barge (dex)
+piloting rafting (dex)
+quick draw (dex)
+riding (choose animal) (dex)
+stealth (dex)
+endurance (con)
+food tasting (con)
+acting (cha)
+bargaining (cha)
+deception (cha)
+leadership (cha)
+music (choose type) (cha)
+persuasion (cha)
+singing (cha)
+storytelling (cha)
+
+
+Table: Arttype
+painting 
+sculpture
+woodcarving
+mosaic
+pottery
+basketweaving
+clothier/tailor
+
+Table: Crafttype
+leatherworking
+armorsmith
+blacksmith
+cooper
+wagonwright
+cartwright
+weaponsmith
+jeweler
+jewelcutter
+basketweaver
+potter
+weaver
+fletcher
+bowmaker
+bookbinder
+calligrapher
+tailor
+glassblower
+locksmith
+sculptor
+shoemaker
+shipwright
+engineer
+siege engineer
+alchemist
+trap maker
+metalsmith
+woodcrafter
+papermaker
+
+Table: KnowledgeType
+history
+legend and lore
+theology
+geography
+nobility and royalty
+military
+sailing
+boatbuilding
+astronomy
+astrology
+arcana
+architecture and engineering
+dungeoneering
+local
+nature
+the planes
+gates and portals
+dragons
+humanoids
+serpents and snakes
+arachnids
+giants
+elves
+dwarves
+animals
+thieving
+language
+reading
+writing
+accounting
+teaching
+teamster / coach driver
+sailing
+navigation
+map reading
+negotiating
+cooking
+birds
+fish and sea creatures
+fishing
+hunting
+trapping
+
+
