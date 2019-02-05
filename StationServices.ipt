@@ -1,0 +1,19 @@
+#
+# Sci-Fi Station Services
+# By GameDaddy
+# 28 December 2009
+# @By Dirk &quot;GameDaddy&quot; Collins
+# email: dirk.collins@verizon.net
+
+#
+# First Table. Generate a Random Encounter.
+# Determine if the Ship is a Merchant, Naval,
+# Private, or Pirate Vessel. Provide Ships
+# Name, Type Designation, Registration No.
+
+Prompt: Starport Type {A|B|C|D}
+When {$Prompt1} = A [do] @TypeAStarport 
+When ($Prompt1) = B [do] @TypeBStarport
+When ($Prompt1) = C [do] @TypeCStarport
+When ($Prompt1) = D [do] @TypeDStarport
+

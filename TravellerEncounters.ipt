@@ -1,0 +1,109 @@
+// Starship Encounters
+// October 26th 2017
+// By The GameDaddy collins.dirk@gmail.com
+//
+// Encounters when you lift off or Jump into a star system.
+
+Table: SystemEncounters
+4:[@StarshipEncounters]
+2:[@{1d2} StarshipEncounters]
+1:[@{1d6} StarshipEncounters]
+
+
+
+Table: StarshipEncounters
+Type: Lookup
+Roll: 3d6
+3-8:No Encounter
+9-11:[@StarFreeTrader]
+12:[@StarPirate]
+13:[@SubsidizedMerchant]
+14:[@StarPatrol]
+15:[@SubsidizedMerchant]
+16-17:[@Yacht]
+18:[@HvyPatrol]
+
+Table: StarFreeTrader
+200t Free Trader, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon] 1x3 [@StarWeapon], 82 tons cargo capacity. Jump 1 
+200t Free Trader, Jump Drive-C Manuever Drive-C Powerplant-C 1x3 [@StarWeapon] 1x3 [@StarWeapon], 12 tons cargo capacity. Jump 3    
+200t Free Trader, Jump Drive-B Manuever Drive-B Powerplant-B 1x3 [@StarWeapon] 1x3 [@StarWeapon], 32 tons cargo capacity. Jump 2
+200t Free Trader, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon] 1x3 [@StarWeapon], 82 tons cargo capacity. Jump 1
+200t Free Trader, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon], 84 tons cargo capacity. Jump 1  
+200t Free Trader, Jump Drive-A Manuever Drive-A Powerplant-A unarmed. 84 tons cargo capacity. Jump 1
+
+Table: StarPirate
+100t Pirate, Jump Drive-A Manuever Drive-A Powerplant-A, Jump-2 1x3 [@StarWeapon]
+100t Pirate, Jump Drive-A Manuever Drive-A Powerplant-A, Jump-2 1x1 [@StarWeapon], 1x2 [@StarWeapon]
+100t Pirate, Jump Drive-A Manuever Drive-A Powerplant-A, Jump-2 1x1 [@StarWeapon], 1x1 [@StarWeapon], 1x1 [@StarWeapon]
+100t Pirate, Jump Drive-A Manuever Drive-A Powerplant-A, Jump-2 1x2 [@StarWeapon]
+2:200t Pirate Free Trader, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon] 1x3 [@StarWeapon], 82 tons cargo capacity. Jump 1 
+2:200t Pirate Free Trader, Jump Drive-C Manuever Drive-C Powerplant-C 1x3 [@StarWeapon] 1x3 [@StarWeapon], 12 tons cargo capacity. Jump 3
+2:400t Pirate Subsidized Merchant Type R, Jump Drive-C Manuever Drive-C Powerplant-C 2x3 [@StarWeapon],  2x3 [@StarWeapon], 200 ton cargo capacity. Jump 1
+2:400t Pirate Subsidized Merchant Type R, Jump Drive-C Manuever Drive-C Powerplant-C 2x2 [@StarWeapon],  2x2 [@StarWeapon], 200 ton cargo capacity. Jump 1
+2:400t Pirate Subsidized Merchant Type R, Jump Drive-F Manuever Drive-F Powerplant-F 2x3 [@StarWeapon],  2x3 [@StarWeapon], 70 ton cargo capacity. Jump 3
+2:600t Pirate Subsidized Merchant Type M, Jump Drive-J Manuever Drive-D Powerplant-D 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 124 ton cargo capacity. Jump 3, 1G acceleration
+2:600t Pirate Subsidized Merchant Type M, Jump Drive-J Manuever Drive-K Powerplant-K 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon],  74 ton cargo capacity. Jump 3, 3G acceleration
+2:600t Pirate Subsidized Fast Merchant Type M, Jump Drive-E Manuever Drive-K Powerplant-K 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 174 ton cargo capacity. Jump 1, 6G acceleration
+2:800t Pirate Cruiser, Jump Drive-M Manuever Drive-M Powerplant-M 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 2x3 [@StarWeapon],  80 ton cargo capacity. 288t fuelbay, Jump 3, 3G acceleration, +20 Pirate Boarding Party, 2 Pinnaces, 2 ATV, 1x Air Raft.
+2:800t Pirate Cruiser, Jump Drive-M Manuever Drive-M Powerplant-M 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 2x3 [@StarWeapon], 145 ton cargo capacity. 188t fuelbay, Jump 1, 6G acceleration, +20 Pirate Boarding Party, 2 Pinnaces, 2 ATV, 1x Air Raft.
+
+Table: SubsidizedMerchant
+400t Subsidized Merchant Type R, Jump Drive-C Manuever Drive-C Powerplant-C 2x3 [@StarWeapon],  2x3 [@StarWeapon], 200 ton cargo capacity. Jump 1
+400t Subsidized Merchant Type R, Jump Drive-C Manuever Drive-C Powerplant-C 2x2 [@StarWeapon],  2x2 [@StarWeapon], 200 ton cargo capacity. Jump 1
+400t Subsidized Merchant Type R, Jump Drive-F Manuever Drive-F Powerplant-F 2x3 [@StarWeapon],  2x3 [@StarWeapon], 70 ton cargo capacity. Jump 3
+600t Subsidized Merchant Type M, Jump Drive-J Manuever Drive-D Powerplant-D 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 124 ton cargo capacity. Jump 3, 1G acceleration
+600t Subsidized Merchant Type M, Jump Drive-J Manuever Drive-K Powerplant-K 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon],  74 ton cargo capacity. Jump 3, 3G acceleration
+600t Subsidized Fast Merchant Type M, Jump Drive-E Manuever Drive-K Powerplant-K 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 174 ton cargo capacity. Jump 1, 6G acceleration
+800t Merchant Starship, J2, 2G
+800t Armed Merchant, J2, 1G, 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 2x3 [@StarWeapon]
+1000t Bulk Carrier, J2, 1G
+1200t Light Fuel Tanker, J2, 1G 
+2000t Bulk Cargo Carrier J1, 1G
+4000t Heavy Fuel Tanker, J1, 1G
+  
+Table: StarPatrol 
+100t Customs Inspector, Jump Drive-A Manuever Drive-A Powerplant-A, Jump-2 1x3 [@StarWeapon] x2 marines, Pilot, Navigator
+200t Customs Inspector, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon] 1x3 [@StarWeapon], 10 tons cargo capacity. Jump 1 1G Acceleration, +14 Staterooms +22 Marines +2 Pilots, +2 Navigators, +2 Engineers.
+200t Customs Inspector, Jump Drive-C Manuever Drive-C Powerplant-C 1x3 [@StarWeapon] 1x3 [@StarWeapon], 12 tons cargo capacity. Jump 3 3G Acceleration
+200t Customs Inspector, Jump Drive-A Manuever Drive-F Powerplant-F 1x3 [@StarWeapon] 1x3 [@StarWeapon], 10 tons cargo capacity. Jump 1 6G Acceleration, +14 Staterooms +22 Marines +2 Pilots, +2 Navigators, +2 Engineers.
+200t Customs Inspector SDB, Jump Drive-Nil Manuever Drive-F Powerplant-F 1x3 [@StarWeapon] 1x3 [@StarWeapon], 20 tons cargo capacity. Jump 1 6G Acceleration, +14 Staterooms +22 Marines +2 Pilots, +2 Navigators, +2 Engineers.
+400t Fast Patrol Frigate, Jump Drive-C Manuever Drive-K Powerplant-K 2x3 [@StarWeapon], 2x3 [@StarWeapon], 10 ton cargo capacity. Jump 1, 5G acceleration, +25 Staterooms +80 Marines +3 Pilots +3 Navigators, +4 Stewards, +6 Engineers, +4 Medics.  
+400t Fast Patrol Missile Frigate, Jump Drive-C Manuever Drive-K Powerplant-K 3x3 Missile Launcher,  1x3 Pulse Laser, 67 ton cargo capacity. Jump 1, 5G Acceration, +12 Staterooms +16 marines, +1 pilot, +1 Navigator, +2 Stewards, +2 Medics, +2 Engineers.  
+400t Long Range Patrol Interceptor, Jump Drive-F Manuever Drive-F Powerplant-F 2x3 [@StarWeapon],  2x3 [@StarWeapon], 70 ton cargo capacity. Jump-3, 3g Acceleration 
+2:800t Patrol Cruiser, Jump Drive-M Manuever Drive-M Powerplant-M 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 2x3 [@StarWeapon],  80 ton cargo capacity. 288t fuelbay, Jump 3, 3G acceleration, +5 Staterooms, +20 Marines, 2 Pinnaces, 2 ATV, 1x Air Raft.
+2:800t Fast Patrol Cruiser, Jump Drive-M Manuever Drive-M Powerplant-M 2x3 [@StarWeapon],  2x3 [@StarWeapon], 2x3 [@StarWeapon], 2x3 [@StarWeapon], 145 ton cargo capacity. 188t fuelbay, Jump 1, 6G acceleration, +5 Staterooms, +20 Marines, 2 Pinnaces, 2 ATV, 1x Air Raft.
+      
+Table: Yacht
+4:200t Yacht, Jump Drive-A Manuever Drive-A Powerplant-A 1x3 [@StarWeapon], 13 tons cargo capacity. 39 tons fuel. Jump 1 1G Acceleration, Ship's Boat, Air/raft, ATV. 16 Staterooms, 5 Crew and 11 Passengers
+2:400t Star Yacht, Jump Drive-F Manuever Drive-F Powerplant-F 2x3 [@StarWeapon], 70 ton cargo capacity. Jump-3, 3g Acceleration, 
+1:1200t Mega-Yacht, Jump Drive-Q Manuever Drive-Q Powerplant-Q 4x3 [@StarWeapon], 219 ton cargo capacity, 390 tons fuel tanks, Jump-3, 3g Acceleration, +59 Staterooms, +17 Crew, +40 Passengers. +95t Shuttle +2 ATV, +2 Air Raft  
+
+Table: HvyPatrol
+4:800t Light Cruiser, J2
+4:800t Missile Cruiser, J2
+4:800t Long Range Light Cruiser, J4
+2:1000t Cruiser, J2
+2:1000t Missile Cruiser, J3
+2:1000t Long Range Cruiser, J4
+1200t Battlecruiser, J2
+1500t Dreadnought, J2
+2000t Battleship, J2
+3000t Battleship, J2
+2500t Light Fighter Carrier, J2
+4000t Battleship, J2
+5000t Battleship, J2
+5000t Spacecraft Carrier, J2
+ 
+
+
+  
+
+Table: StarWeapon
+Type: Lookup
+Roll: 1d10
+1-3:Pulse Laser
+4-5:Beam Laser
+6:Sandcaster
+7-8:Missile Launcher
+9:ECM Launcher
+10:Slug Thrower

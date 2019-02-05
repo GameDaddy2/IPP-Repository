@@ -1,0 +1,250 @@
+// Old German Names
+// by the GameDaddy collins.dirk@gmail.com
+// 2016/9/22
+
+
+Table: ProperGermanName
+[@GermanName >> Proper]
+
+Table: GermanName
+5:[@GermanMaleName] [@GermanSurname]
+4:[@GermanFemaleName] [@GermanSurname] f.
+1:[@GermanMaleName] [@GermanMaleEpitaf]
+1:[@GermanFemaleName] [@GermanFemaleEpi]  f.
+
+
+Table: GermanMaleName
+8:[@CommonGermanMaleName]
+4:[@StandardGermanMaleName]
+1:[@RareGermanMaleName]
+
+Table: GermanFemaleName
+8:[@CommonGermanFemaleName]
+4:[@StandardGermanFemaleName]
+1:[@RareGermanFemaleName]
+
+Table: CommonGermanMaleName
+Ludwig
+Lothar
+Heinrich
+Friedrich
+Henry
+Otto
+Odo
+Ernst
+Johann
+Karl
+Ekkehard
+Konrad
+Hermann
+Albert
+Ernest
+Eduard
+Bernhard
+Adolf
+Werner
+Wilhelm
+Ernst
+
+
+Table: StandardGermanMaleName
+Beringer
+Elger
+Burchard
+Albrecht
+Wittekind
+Valdemar
+Luther
+Ezzo
+Poppo
+Dietrich
+Reinhard
+Elgar
+Gunther
+Erich
+
+Table: RareGermanMaleName
+Ludoving
+Esico
+Hesiko
+Orlamunde
+Adelgeri
+Siegebodo
+Julius
+Eduard
+Anno
+Mieszko
+Sigismunde
+Wolrad
+Botho
+Helmold
+
+
+Table: CommonGermanFemaleName
+Bertrada
+Berthilde
+Mathilde
+Katharina
+Agnes
+Gertrude
+
+Table: StandardGermanFemaleName
+Cacilia
+Kasia
+Gabriele
+Sophia
+Dorothea
+Eleonore
+Jutta
+Oda
+Benedicta
+Elisabeth
+Adelaide
+Adelheid
+Adelhilde
+
+
+
+Table: RareGermanFemaleName
+Lutradis
+Reinvig
+Bardo
+Richeza
+Kunigunde
+Helena
+
+Table: GermanSurname
+Hohnstein
+Scharzfels
+Stolberg
+Honsteyn
+Ilfeld
+Arnswald
+Aschenrode
+Helden
+Braunschweig
+Grubenhagen
+Luneberg
+Hapsberg
+Hannover
+Gothe
+Saxe
+Coburg
+Gottorf
+Gottorp
+Staufen
+Hohenstauffen
+Ritterstein
+Borwin
+Lambert
+Gnesen
+Wittelsbach
+Wettin
+Wallenstein
+Dalwigk (minstrals)
+Elben
+Heringen
+Kelbra
+Sondershausen
+Schwarzburg
+Welfen
+
+
+
+Table: GermanMaleEpitaf
+the bearded
+of Sangerhausen
+the lion
+the fowler
+the hunter
+the great
+the illustrious
+the sage
+the peaceful
+the unborn
+the degenerate
+the stern
+the quarrelsome
+the simple
+
+
+Table: GermanFemaleEpi
+none
+
+Table: GermanCastles
+Supplingenburg
+Scartveld
+Wolfenbuttel
+Lauterberg
+Scharzfels
+Konigsmarck
+Aahlden
+Knesebeck
+Lubeck
+Schleswig
+Hedeby
+Haithabu
+Flensberg
+Scharfenstein
+Leinefelde
+Thuringia
+Altenstein (old rock)
+Altenberg (old castle)
+Allendorf
+Bad Sooden
+Grebenstein
+Everstein
+Polle
+Weser
+Leine
+Greene
+Tannenberg
+Nentershausen
+Hessia
+Hesse
+Sachsenberg
+Walkenreide
+Weidelsberg
+Hanstein
+Wahlshausen
+Sichelstein
+Salzwedel
+Luneberg
+Arendsee
+Rossbach
+Meissner
+Werra
+Teufelskanzel
+Sababurg
+Lauterberg
+Steinkirche (Rock Church)
+Ritterstein (Knight's Stone)
+Hitzelrode
+Wolfstitsch (Wolf Table)
+Donaustauf
+Walhalla
+Regensburg
+Wismar
+Coburg
+Veste Corburg
+Sloss (Palace with a great hall)
+Henneberg
+Krukenburg
+Weidelsburg
+Stolberg
+Wartburg
+Schwarzburg
+Falkenberg
+Lippspringe
+Dringenberg
+Langenstein
+Westerburg
+Lauenberg
+Stolberg
+Winzenburg
+Heldenberg
+
+
+
+
+

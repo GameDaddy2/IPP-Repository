@@ -1,0 +1,815 @@
+Table: ProperEnglishName
+[@EnglishName >> Proper]
+
+Table: EnglishName
+15:[@EnglishMaleName]
+12:[@EnglishFemaleName] (f)
+5:[@EnglishMaleName][@byname]
+4:[@EnglishFemaleName] (f) [@byname]
+
+Table: EnglishMaleName
+8:[@CommonEnglishMaleName]
+4:[@StandardEnglishMaleName]
+1:[@RareEnglishMaleName]
+
+Table: EnglishFemaleName
+8:[@CommonEnglishFemaleName]
+4:[@StandardEnglishFemaleName]
+1:[@RareEnglishFemaleName]
+
+Table: byname
+38:[@Location] 
+32:[@Relationship]
+15:[@Occupation]
+12:[@Nickname]
+
+Table: Location
+2:[@CommonLocation]
+2:of Wessex
+2:of Anglia
+2:of Mercia
+[@StandardLocation]
+of Wales
+of Cornwall
+of Sussex
+of Kent
+2:of Northumbria
+of Strathclyde
+of London
+of York
+of Winchester
+of Exeter
+of Lincoln
+of Chester
+of Devon
+of Deira
+of Lindsey
+of Hehil
+of Wales
+of Hamwic
+of Yeavering
+of Lindisfarne
+of Bainburgh
+of Monkwearmouth
+of Jarrow
+of Crowland
+of Oundle
+of Rendlesham
+of Bath
+of Glastonbury
+of Canterbury
+of Rochester
+of Cirencester
+of Magonsaete
+of Hwicee
+of Bernicia
+of Brynaich
+of Dummonia
+of Lichfield
+of Leicester
+of York
+of Durham
+of Cambridge
+of Wareham
+of Wellingford
+of Warwick
+
+Table: CommonLocation
+of the Bridge
+of the Brook
+of the Field
+of the Ford
+of the Green
+of the Grove
+of the Hall
+of the Heath
+of the Hill
+of the Holmes
+Of the Lane
+of the Lee
+of the Marsh
+of the Mead
+of the Mill
+of the Moor
+of the North
+of the Well
+of the West
+of the East
+of the South
+of the Wood
+
+Table: StandardLocation
+of the Acres
+of Ash
+of Ashcroft
+of Ashley
+of Banks
+of Beck
+of Birdwood
+Of Blackwood
+of Booth
+of Brook
+of Brooke
+of Brookes
+of Burn
+of Bygraves
+of Castle
+of Cave
+of Chalk
+from Cherry
+from Church
+of Clay
+from Cliff
+from Close
+of Coombe
+of Cottage
+of Crabbe
+of Croft
+from Cross
+of Dale
+of Dean
+of Dell
+from Down
+from Downs
+of Elm
+of Fields
+of Ford
+of Foord
+of Garth
+of Geenway
+of Greenway
+from Grave
+from Graves
+of Greave
+of Green
+from Green
+of Greene
+of Greenwood
+of Gretwood
+of Griswood
+of Grisewood
+of Grove
+from Groves
+of Hall
+of Harwood
+of Heath
+of Hill
+from the Hills
+of Hoarwood
+of Hole
+of Holloway
+of Holmes
+of House
+from Hurst
+from Lake
+from Lane
+of Lea
+of Lee
+of Lees
+of Leeds
+of Leigh
+of Ley
+of Littlewood
+from Low
+of Marsh
+of Mead
+of Meadow
+of Mear
+or Mere
+of Mill
+of the Mills
+from Moor
+of Mudge
+of Myer
+of Nash
+of Nelmes
+of Noke
+of Norris
+of the North
+from the Oaks
+of Oakley
+of Overbury
+of Pightle
+of Pitt
+of Plumntree
+of Pool
+of Pound
+of Radcliffe
+of Rhod
+of Rhodes
+of Rhok
+from Ridge
+from Ridgeway
+from Rivers
+from the River
+of the Road
+of Roundtree
+or Royd
+of Rugge
+of Sands
+of Say
+of Shore
+of Stock
+of Stockton
+of Stone
+from Stream
+from Stubbs
+of Style
+of Sutcliff
+of Sweetapple
+of Thorndyke
+of Thorne
+of Thornley
+of Thorpe
+of Thwaite
+of Townrow
+of Townsend
+of Travers
+of Travis
+of Rowan
+of Tree
+of Rowantree
+of Rowantown
+of Underwood
+of Vale
+of Darkwood
+of Vale
+of the Walk
+of the Waters
+from Bath
+of Weir
+of Well
+of Wells
+of the West
+of the Wood
+of Woodrow
+from the Woods
+of the Realm
+of Kingston
+of Bensington
+of Wroughton
+of Carhampton
+of Kingston Down
+
+Table: Relationship
+8:[@Patriarchal]
+[@Matriarchal]
+[@OldePatronyms]
+
+of the Gewisse 
+
+Table: Occupation
+[@CommonJobs]
+[@RuralJobs]
+[@TownJobs]
+[@CityJobs]
+[@PortJobs]
+
+Table: Nickname
+
+
+
+Table: CommonEnglishMaleName
+Adam
+Alan
+Goffrey
+Geoffrey
+Gilbert
+Henry
+Hugh
+John
+Nicholas
+Peter
+Phillip
+Ralph
+Reginald
+Richard
+Robert
+Roger
+Simon
+Stephen
+Thomas
+Walter 
+William
+
+Table:  StandardEnglishMaleName
+Abel
+Abraham
+Absalon
+Aiward
+Aleward
+Alban
+Albin
+Alexander
+Alfred
+Alger
+Almeric
+Alured
+Andrew
+Arnold
+Arthur
+Aubrey
+Augustine
+Baldwin
+Bardulf
+Bardelot
+Bartholomew
+Basil
+Benedict
+Bernard
+Brice
+Christopher
+Clement
+David
+Drogo
+Eadric
+Edmund
+Edward
+Edwin
+Elias
+Elfwine
+Ernald
+Ernest
+Ernulf
+Eustace
+Everard
+Fulk
+Fulke
+Faulk
+Gerard
+Gervase
+Giles
+Gillem
+Godfrey
+Godwin
+Grayland
+Greyland
+Gregory
+Huy
+Guy
+Hammond
+Hamon
+Harry
+Harvey
+Herbert
+Hereward
+Howard
+Hubert
+Hugh
+Hugo
+Humfrey
+Jacob
+James
+Jordan
+Lambert
+Lawrence
+Luke
+Martin
+Matthew
+Maurice
+Michael
+Miles
+Milo
+Nigel
+Norman
+Odo
+Oddo
+Offa
+Oliver
+Osbert
+Oswald
+Osric
+Oswine
+Pagan
+Paul
+Peter
+Philip
+Piers
+Ralph
+Randolph
+Ranulf
+Raulf
+Rauf
+Rayner
+Reginald
+Renaud
+Reynaud
+Richard
+Robert
+Robin
+Roger
+Saer
+Segod
+Serlo
+Sewal
+Sewin
+Siger
+Silvester
+Simon
+Steven
+Swain
+Syward
+Theobald
+Thomas
+Thurstan
+Vincent
+Wakelin
+Walerand
+Walter
+Warin
+Warren
+William
+Wymer
+
+
+Table: RareEnglishMaleName
+Acer
+Adelard
+Adric
+Ailmar
+Ailmund
+Alard
+Albert
+Aldwin
+Alfric
+Ambrose
+Anselm
+Arnulf
+Ascil
+Auger
+Aylmer
+Aylwin
+Aynulf
+Beaumund
+Beneger
+Berenger
+Bertram
+Boniface
+Brachmar
+Brachtmar
+Brune
+Coleman
+Constantine
+Cynewulf
+Daniel
+Denis
+Dereman
+Durant
+Eberard
+Edric
+Edrich
+Edulf
+Ernwynd
+Estmar
+Fray
+Fromund
+Fulbert
+Galant
+Gamel
+Gerebert
+Germund
+Gerald
+Gerold
+Gocelin
+Godard
+Godelot
+Godric
+Godsalm
+Gredlan
+Greylond
+Harding
+Hascuil
+Hersent
+Hodard
+Hodor
+Ilger
+Ingeler
+Ioco
+Isaac
+Jakin
+Jean
+Joceaume
+Jocelin
+Joseph
+Juibert
+Jobert
+Julian
+Lagot
+Layamon
+Leofric
+Leofwan
+Leonard
+Letard
+Louis
+Mark
+Mauger
+Maurin
+Noah
+Odard
+Oger
+Orenga
+Osgood
+Osmer
+Osmund
+Otto
+Quintin
+Randwin
+Reinbald
+Reymund
+Richeman
+Ringer
+Roce
+Rocelin
+Roland
+Rolf
+Sabern
+Savaric
+Saward
+Sawin
+Seaman
+Solomon
+Spakeman
+Sperling
+Sweting
+Talebot
+Terry
+Theodoric
+Thorold
+Thorbald
+Thorbold
+Toly
+Trahel
+Tristram
+Trustrum
+Turburt
+Ulmar
+Walding
+Walkelin
+Warner
+Wigan
+Winmund
+Wulf
+Wulfwin
+Wydo
+Wydah
+Wymarc
+Wymon
+Caedwalla
+Cenwed
+Ceolwald
+Cerdic
+Aldfrith
+Wihtred
+Mul
+Ine
+Nothhelm
+
+
+
+Table: RareEnglishFemaleName
+Aldiva
+Aldwina
+Alexandra
+Aleysia
+Alieva
+Alma
+Anabila
+Angelet
+Aethelyna
+Barbota
+Benedicta
+Benigna
+Bersaba
+Byota
+Dyota
+Camillia
+Crestina
+Cuthburth
+Cwenburg
+Desiree
+Diane
+Edida
+Edwina
+Ediva
+Ermengarda
+Edgarda
+Erminilda
+Edilda
+Ermenilda
+Erneburga
+Esilia
+Eve
+Evelot
+Eveline
+Fina
+Flandrina
+Gemina
+Gencelina
+Goda
+Godhilda
+Godahyde
+Godelda
+Godeleva
+Godiva
+Godrun
+Golda
+Grisilde
+Grishilda
+Grisgarde
+Guida
+Hadewisa
+Hagenild
+Helen
+Holderna
+Holdyva
+Hylde
+Hyldehera
+Italia
+Laura
+Laurencia
+Leofrun
+Leofruna
+Leveva
+Lina
+Livina
+Lyneya
+Marsota
+Marsona
+Marsonia
+Melodia
+Mirabel
+Nolica
+Olive
+Olympia
+Orphelia
+Ossania
+Pavia
+Richende
+Runhild
+Runehilda
+Sabelina
+Sophie
+Thomasine
+Yerilda
+Yvonne
+
+
+Table:  StandardEnglishFemaleName
+Ada
+Aelicia
+Agatha
+Agnes
+Albreda
+Alditha
+Aldreda
+Alice
+Alina
+Alison
+Alisoun
+Alveva
+Alvera
+Alviva
+Alyenora
+Amabel
+Amabella
+Amice
+Amicia
+Amy
+Anne
+Ascelina
+Avelina
+Avice
+Barbara
+Basilia
+Beatrice
+Beatrix
+Bertha
+Cassandra
+Castanea
+Cecilia
+Cecily
+Celestria
+Christiana
+Christina
+Clarice
+Clemencia
+Constance
+Custancia
+Custelot
+Dionise
+Dionisia
+Edelina
+Edith
+Egidia
+Ela
+Eleanor
+Elena
+Elizabeth
+Ellen
+Emma
+Emmeline
+Estrild
+Estrilda
+Eugenia
+Eva
+Felicia
+Florence
+Galiana
+Grecia
+Guinevere
+Gundreda
+Gunnilda
+Gunnora
+Hawisia
+Helewisia
+Ida
+Idonia
+Idonea
+Imayna
+Isabel
+Issabella
+Iseult
+Isold
+Ismenia
+Isotte
+Lotte
+Ivetta
+Joan
+Joanna
+Jocosa
+Joia
+Joyce
+Juliana
+Katherine
+Lauretta
+Laura
+Lecelina
+Lecia
+Leticia
+Lettice
+Loveday
+Lucia
+Lucy
+Mabel
+Mabillia
+Magdalen
+Margaret
+Margery
+Marsilla
+Mary
+Mathilda
+Berthilda
+Maud
+May
+Meliora
+Melisant
+Muriel
+Nicola
+Petronella
+Phillipa
+Regnilda
+Ragenild
+Raynilda
+Roesia
+Rohesia
+Rosamund
+Dotamund
+Rose
+Sabine
+Saeva
+Sara
+Sayna
+Sibyl
+Susanna
+Theophania
+Titania
+Wilhelma
+Wilhelmina
+Edwina
+Edhelmina
+
+
+Table: CommonEnglishFemaleName
+Agnes
+Alice
+Amice
+Amy
+Avice
+Beatrice
+Berta
+Bertha
+Cecily
+Christiana
+Eleanor
+Emma
+Isabel
+Iseult
+Joan
+Juliana
+Mabel
+Margaret
+Margery
+Matilda
+Rohesia
+Sabina
+Sara

@@ -1,0 +1,222 @@
+// Highguard Starship Encounters
+// October 27th 2017
+// By The GameDaddy collins.dirk@gmail.com
+//
+// Encounters when you lift off or Jump into a star system, Using the 
+// Highguard Rules. Enhanced with added encounters and tables
+//
+// Import Starship Names Function
+Use: nbos\StNameGen.ipt
+
+
+Table: HighGuardEncounters
+4:[@GuardStarshipEncounters]
+2:[@{1d2} GuardStarshipEncounters]
+[@StarFleetEncounters]
+
+
+Table: GuardStarshipEncounters
+[@MerchantStarShips]
+#[@BattleStarShips]
+#[@CruiserStarShips]
+#[@CarrierStarShips]
+#[@DestroyerStarShips]
+#[@FrigateStarShips]
+#[@FighterStarShips]
+#[@RefineryStarShips]
+#[@IntruderStarShips]
+#[@CorvetteStarShips]
+#[@PlanetoidStarShips]
+#[@AuxilliaryStarShips]
+#[@LinerStarShips]
+#[@ScoutStarShips]
+#[@StationShips]
+#[@TankerStarShips]
+#[@TenderStarShips]
+#[@BargeSpacecraft]
+#[@ExpressStarShips]
+#[@YachtStarShips]
+EndTable:
+
+
+        
+
+
+Table: MerchantStarShips
+<i>[@MasterStarshipName]</i> 100 Ton Short Range Freighter, Registration ID [MV{1d10000} >> Bold]
+<i>[@MasterStarshipName]</i> 100 Ton Systems Freighter, Registration ID [MM{1d10000} >> Bold]
+<i>[@MasterStarshipName]</i> 200 Ton Freighter, Registration ID [ML{1d100000} >> Bold]
+<i>[@MasterStarshipName]</i> 200 Ton Free Trader, Registration ID [ML{1d100000} >> Bold]
+<i>[@MasterStarshipName]</i> 200 Ton Far Trader, Registration ID [ML{1d100000} >> Bold] 
+<i>[@MasterStarshipName]</i> 200 Ton Merchant Liner, Registration ID [RM{1d10000} >> Bold]
+<i>[@MasterStarshipName]</i> 300 Ton Merchant Freighter, Registration ID [M{1d10000} >> Bold]
+<i>[@MasterStarshipName]</i> 300 Ton Star Freighter, Registration ID [ML{1d10000} >> Bold]
+<i>[@MasterStarshipName]</i> 400 Ton Type M Subsidized Merchant, Registration ID [MG{1d100000} >> Bold]
+EndTable:
+
+Table: BattleStarShips
+
+Table: CruiserStarShips
+
+Table: CarrierStarShips
+
+Table: DestroyerStarShips
+
+Table: FrigateStarShips
+
+Table: FighterStarShips
+
+Table: RefineryStarShips
+
+Table: IntruderStarShips
+
+Table: CorvetteStarShips
+
+Table: PlanetoidStarShips
+
+Table: AuxilliaryStarShips
+
+Table: LinerStarShips
+
+Table: ScoutStarShips
+
+Table: StationShips
+
+Table: TankerStarShips
+
+Table: TenderStarShips
+
+Table: BargeSpacecraft
+
+Table: ExpressStarShips
+
+Table: YachtStarShips
+
+
+
+
+Table: StarFleetEncounters
+<b>Not Yet Complete</b>
+
+#ML Class Hull Stands for Long Range Merchant, Far Trader, or Free Trader
+#RM Designation Stands for Merchant Liner
+#R Designation Stands for Luxury Liner
+#RG Stands for Subsidized Liner
+#MA Stands for Armed Merchant
+#MD Stands for Merchant Liner 
+#MG Stands for Subsidized Merchant
+#MS Designation stands for Frontier Trader i.e. heavily armed transport
+#MC Designated for Merchant Cruisers
+#AO Designation for Tanker - Liquid Carrier
+#TB Bulk Cargo Carrier
+#TF Tanker - Fuel Carrier
+#TO Ore Hauler
+#TV Grain Hauler
+#GC Commercial Construction Ship
+#GM Commercial Mining Ship
+#GT Commercial Tender 
+#GE Commercial Tug
+#HS Non-Commercial Settlement Class Ship
+#HG Non-Commercial Government Ship
+#HC Non-Commercial Customs Inspection Ship
+#L or LL, Non-Commercial Laboratory Ship
+#LS Non-Commercial Survey Ship
+#LC Non-Commercial Exploratory Cruiser
+#LE Non-Commercial Warship
+#Y Non-Commercial Yacht
+#YK Non-Commercial Private Yacht
+#UT The Modular Cutter is a low cost, low tech utility vehicle intended for short duration Spaceport or Starship operations. 
+#WP Interdiction Satellite - Stationkeeping Thrusters only.
+#W Orbital Class Spacecraft - Satellites, Sensor Platforms, and such.
+#
+# Military Ship Designations
+#BB Battleship
+#BA Heavy Battleship
+#BL Light Battleship
+#BM Monitor Battleship based on a planetoid hull
+#BS Strike Battleship - Long Range Strike Capability
+#BT/R Battle Rider - Non Jump capable, Heavily Armored
+#BZ Battle Rider Hybrid - Non-Jump capable Battleship carried by a Tender.
+#CA Armored Cruiser
+#CB Battle Cruiser
+#CL Light Cruiser
+#CM Missile Cruiser
+#CS Strike Cruiser
+#CY Mercenary Cruiser
+#CAP patrol Cruiser
+#CAC Command Cruiser
+#CAB/CLB Heavy/Light Bombardment or Siege Cruisers
+#CAM/CAL Heavy/Light Missile Cruiser
+#FR Frigate
+#CC Corvette
+#CVA Heavy Carrier
+#VH Heavy Carrier - Flagship
+#VS Strike Carrier
+#VL Light Carrier
+#VP Pocket Carrier - Usually only carries 1-6 fighters
+#VA Assault Carrier - Lots of orbital-surface comabt and assault spacecraft
+#VB Battle Tender
+#VC Cruiser Tender
+#VE Escort Tender
+#VI Interdiction Tender - These tenders are also small, escort-sized, vessels 
+#   that carry non-starships, such as SDBs, and, as their name implies, guard 
+#   interdicted planets. Although the role may be filled with an escort tender, 
+#   interdiction tenders tend to have larger storage, and more extensive repair 
+#   facilities. They are expected to act somewhat independently for long 
+#   durations and have a much wider mission footprint, involving policing, 
+#   customs, search and rescue, and other non-combat tasks.
+#DD Destroyer Class Vessels
+#DE Destroyer Escort Class Vessels
+#DL Light Destroyer Class Vessels
+#DS Strike Destroyer Class Vesseels - Long Jump Range
+#DX Stealth Destroyers
+#DP Pursuit Destroyer - Pursuit destroyers are designed for long-term endurance. 
+#   Their role is to provide rear area and frontier security. They do not 
+#   normally operate in a fleet support role, but tend to be lone wolves looking
+#   for pirates and enemies attempting to penetrate the frontier. These ships 
+#   are the natural enemy of the strike destroyer. Where the strike destroyer 
+#   plays the offensive role of attempting to penetrate the enemies defenses, 
+#   the pursuit destroyer seeks to prevent and destroy them.
+#EE Escort Class Warship 200-5,000t
+#EC Escort Corvette 
+#EM Missile Escort
+#ES Strike Escort
+#EC Close Escort 200-500t
+#EF Fleet Escort
+#PF System Defense Boat - Small warship generally less than 2000 tons with no jump drives. 
+#PA Heavy Fighter 50-99 Tons
+#PL Light Fighter - less than 60 tons
+#PG Gunship or Gunboat 90-670 tons
+#   Gunboats are characterized by their capability for extended operations in 
+#   vacuum, atmosphere and water, making them an all environment threat.
+#PM Missile Boat 500-800 tins
+#PS Strike Fighter 50-90 tons
+#PMF Microfighter 1-29 tons
+#I Assault Transport Class 
+#IA A relatively large vessel for the class, both armed and armored. They often 
+#   carry organic troop transports and provide standoff combat support.
+#II Troop Transport
+#IL Light Troop Transport 
+#SC Scout Ship
+#SA Heavy Scout Ship - 200+ Tons
+#SSR Fleet Scout - 500-1000t with extra jump tanks for extreme long range 
+#   scouting. Usually carried on a Tender or Carrier.
+#AC Casualty Ship or Hospital
+#AD Troop Transport with assault shuttles.
+#AE Fleet Tug
+#AF Fleet Tanker
+#AM Fleet Replenishment Ship
+#AO Fleet Ordnance Ship
+#AS Fleet Salvage/Recovery Vessel
+#AT Starship Tender
+#AU Utility Ship - Utility Ships perform a wide variety of tasks for the navy, 
+#   including maintenance of navigational aids, technical research, target 
+#   ships, degaussing, survey, recreation, administrative support, and 
+#   communication/sensor relays.
+#AX Fleet Refinery Ship
+#AZ Tanker / Replenishment SHip
+#AZT Rift Tanker - A special-purpose tanker designed to support operations in 
+#    the sparse-stellar territories of the rifts.
+#AM-Q Attack Cargo Vessel 
+#
+
