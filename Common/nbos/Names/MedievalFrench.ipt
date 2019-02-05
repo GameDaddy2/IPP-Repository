@@ -1,0 +1,75 @@
+# Medeival French Name Generator
+# By the GameDaddy - collins.dirk@gmail.com
+# 29 August, 2017
+#
+
+Table:MedeivalFrenchNames
+6:[@FrenchFantasyNam]
+4:[@FrenchFemNam]
+
+
+
+#
+# French Male Names
+#
+Table: FrenchFantasyNam
+16:[@FranceFirst]
+4:[@FranceFirst] of the [@FrancNamLoc]
+4:[@FranceFirst] the [@FranceFirst]
+12:[@FranceFirst] [@FranceFirst] [@FranceFamilyname]
+8:[@FranceFirst] [@FranceFamilyname] 
+4:[@FranceFirst] [@FranceFamilyname] of the [@FrancNamLoc]
+3:<i>[@FranceFirst] [@FranceFirst] [@FranceNoblename]</i> [@FrenchTitle]- Noble or Highborn
+2:<i>[@FranceFirst] [@FranceNoblename]</i> [@FrenchTitle]- Noble or Highborn
+1:<i>[@FranceFirst] [@FranceNoblename] of the [@FrancNamLoc]</i> [@FrenchTitle]- Noble or Highborn
+
+#
+# French FranceFemale Names
+#
+Table: FrenchFemNam
+16:[@FranceFemFirst] 
+4:[@FranceFemFirst] of the [@FrancNamLoc] 
+4:[@FranceFemFirst] the [@FranceFemFirst] 
+12:[@FranceFemFirst] [@FranceFemFirst] [@FranceFamilyname] 
+8:[@FranceFemFirst] [@FranceFamilyname] 
+4:[@FranceFemFirst] [@FranceFamilyname] of the [@FrancNamLoc]
+3:<i>[@FranceFemFirst] [@FranceFemFirst] [@FranceNoblename]</i> [@FranceFemTitle]- Noble or Highborn
+2:<i>[@FranceFemFirst] [@FranceNoblename]</i> [@FranceFemTitle]- Noble or Highborn
+1:<i>[@FranceFemFirst] [@FranceNoblename] of the [@FrancNamLoc]</i> [@FranceFemTitle]- Noble or Highborn
+
+
+
+#French Male First Names
+Table: FranceFirst
+[@MaleFrench]
+[@MaleNorman]
+[@MaleProvencal]
+
+#French Female First Names
+Table: FranceFemFirst
+[@FemaleFrench]
+[@FemNorman]
+[@FemProvencal]
+
+#French Surname or Last Name
+Table: FranceFamilyname
+[@FrenchLastName]
+[@NormanLastName]
+[@ProvencalLastName]
+
+#Historical Names of French Noble Families
+Table: FranceNoblename
+[@FrenchNobles]
+[@NormanNobles]
+[@ProvencalNobles]
+
+#French Nobleman Titles
+Table: FrenchTitle
+
+#French Female Noble Titles
+Table: FranceFemTitle
+
+#Historical French Places
+Table: FranceNamLoc
+[@AustrasiaPlaces]
+[@NuestriaPlaces]
