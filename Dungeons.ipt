@@ -1,0 +1,143 @@
+// Dungeons Generator
+// by the GameDaddy
+// collins.dirk@gmail.com
+// 2020-07-06
+
+Table: DungeonDressing
+[@DungeonFeatures]
+
+Table: DungeonFeatures
+4:[@Randomfeatures] - random feature
+4:[@Commonroom] - common room
+1:[@Inn] - Inn or Tavern
+1:[@BathDecoration] - Bath Decoration
+1:[@Trophy] - Trophy or trophyroom
+1:[@Tools] - Tools 
+4:[@Bedroom] - Bedroom
+2:[@Laboratory] -  Laboratory
+4:[@GeneralDecorations] - General 
+2:[@Wallhung] - wall hung decorations
+2:[@Library] - Library
+2:[@ShrineDecorations] - Shrine 
+1:[@Boothdeco] - Booth or Stall
+
+Table: Boothdeco
+Display Case
+Tapestry
+Sign
+Wood Sign
+Painted Sign
+Etched Sign
+Display Shelf
+Hanging Display
+Walk-in Alcove
+Barrel
+Barrels
+Box
+Boxes
+Draped Tent
+Tent
+Wagon
+Cart
+Donkeys
+Ponies
+Livestock tied-off
+Pack Horse
+Draft Horse
+Riding Horse
+Saddlebags
+Large Sacks
+Hanging Bags
+
+Table: ShrineDecorations
+Plant (in a pot)
+Banner, Flag, or Pennant
+Candle
+Candle Holder
+Holy Water Font
+Holy Symbol
+Idol
+Incense
+Shrine
+Incense Burner
+Incense
+Shrine
+Mosaic
+Niche
+Offering Table
+Statue
+Pryaer Book
+Prayer Scrolls
+Prayer Rugs
+Sacred text
+Symbol
+Vigil Light
+Prayer Wheel
+Private Room
+Confessional
+Alcove
+
+
+
+Table: Library
+Books
+Bookshelf
+Scroll Shelves
+Scribing Table
+Book Rack
+Chairs and Tables
+Chandlier
+Braziers
+Journal or Register
+Ladder
+Wall Bookshelf
+Manuscript Table
+Book Press
+Paper Table
+Scrolls
+Cloth & Vellum
+Ink Bottles and Pens
+Sand Bowl
+Parchment
+Paper
+Books
+
+Table: Wallhung
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

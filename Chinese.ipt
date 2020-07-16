@@ -1,0 +1,237 @@
+// Chinese Names
+// by the gamedaddy collins.dirk@gmail.com
+// January 8th 2020
+
+Table: TopChineseNames
+5:[@ChineseMale]
+5:[@ChineseFemale] -f
+
+
+Table: ChineseMale
+[@ChineseMaleNames] [@ChineseSurnames]
+
+Table: ChineseFemale
+[@ChineseFemNames] [@ChineseSurnames]
+
+
+
+Table: ChineseMaleNames
+An
+Bing
+Chen
+Chung
+Confucius
+Cong
+Deshi
+Dewei
+Fo-hai
+Fo-hsing
+Gan
+Gao
+Genjo
+Ho
+Hsin
+Huang fu
+Hui-chao
+HuiK'o
+Jiang
+Jin
+Jing
+Jun
+Kong
+Lao-Tzu
+Lee
+Lei
+Li
+Li-Liang
+Liang
+Liko
+Manchu
+Ming
+Niao-ka
+On
+Qing-Nan
+Quon
+Shen
+Shing
+Sun
+Tung
+Uang
+Wang
+Wen
+Woo
+Wu-pen
+Xi-Wang
+Xiaoping
+Xin
+Xing-fu
+Yao 
+Ye
+Yo
+Yong
+Yu
+Yuan
+Zhong
+Zhu
+Zhuang 
+
+
+
+Table: ChineseFemNames
+Ah lam
+An
+Bao
+Chen
+Chen-chio
+Chen-tao
+Chow
+Chu hua
+Chun
+Chyou
+Da-Shin
+Da-xia
+Fai
+Fang
+Fang hua
+Genji
+Guanyin
+Hua
+Hui fang
+Jing Wei
+Jun
+Kimora
+Le
+Lee
+Lei
+Li
+Li Hua
+Li Mei
+Li Ming
+Lian
+Lien
+Lin
+Ling
+Lixue
+Mee
+Mei
+Mingmei
+Quan
+Shu Fang
+Ting
+Ushi
+Xiang
+Xiao-Niao
+Xiao-Xing
+Xin
+Xiu Mei
+Yin
+Yu
+Zan
+Zhengqiu 
+Zhi
+Zhijuan
+Zi
+
+
+Table: ChineseSurnames
+Li
+Wáng
+Zhang
+Liú
+Chén
+Yáng
+Zhào
+Huáng
+Zhou
+Wú
+Xú
+Sun
+Hú
+Zhu
+Gao
+Lín
+Hé
+Guo
+Ma
+Luó
+Liáng
+Sòng
+Zhèng
+Xiè
+Hán
+Táng
+Féng
+Yú
+Dong
+Xiao
+Chéng
+Cáo
+Yuán
+Dèng
+Xu
+Fù
+Shen
+Zeng
+Péng
+Lu
+Su
+Lú
+Jiang
+Cài
+Jia
+Ding
+Wèi
+Xue
+Yè
+Yán
+Yú
+Pan
+Dù
+Dài
+Xià
+Zhong
+Wang
+Tián
+Rén
+Jiang
+Fàn
+Fang
+Shí
+Yáo
+Tán
+Shèng
+Zou
+Xióng
+Jin
+Lù
+Hao
+Kong
+Bái
+Cui
+Kang
+Máo
+Qiu
+Qín
+Jiang
+Shi
+Gù
+Hóu
+Shào
+Mèng
+Lóng
+Wàn
+Duàn
+Zhang
+Qián
+Tang
+Yin
+Lí
+Yì
+Cháng
+Wu
+Qiáo
+Hè
+Lài
+Gong
+Wén
+

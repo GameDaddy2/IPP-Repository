@@ -1,0 +1,275 @@
+// German Names
+// by the gamedaddy collins.dirk@gmail.com
+// January 8th 2020
+
+Table: TopGermanNames
+5:[@GermanMale]
+5:[@GermanFemale] -f
+
+
+Table: GermanMale
+[@GermanMaleNames] [@GermanSurnames]
+
+Table: GermanFemale
+[@GermanFemNames] [@GermanSurnames]
+
+
+
+Table: GermanMaleNames
+3:Alexander
+3:Hans
+2:Ben
+2:Elias
+2:Felix
+2:Günter
+2:Henry/Henri
+2:Jonas
+2:Jürgen
+2:Karl
+2:Klaus
+2:Leon
+2:Louis/Luis
+2:Lucas
+2:Luka
+2:Maximilian
+2:Michael
+2:Noah
+2:Paul
+2:Peter
+2:Stefan
+2:Thomas
+2:Tim
+2:Uwe
+2:Walter
+Andreas
+Christian
+Daniel
+Dennis
+Dieter
+Ernst
+Frank
+Friedrich
+Gerhard
+Heinrich
+Heinz
+Helmut
+Herbert
+Hermann
+Horst
+Jan
+Jörg
+Kurt
+Manfred
+Martin
+Otto
+Sebastian
+Werner
+Wilhelm
+Wolfgang
+
+
+
+Table: GermanFemNames
+2:Anna
+2:Emilia
+2:Emily
+2:Emma
+2:Gertrude
+2:Hannah/Hanna
+2:Johanna
+2:Julia
+2:Laura
+2:Lea
+2:Mia
+2:Ursula
+3:Maria
+3:Marie
+Andrea
+Angelika
+Anja
+Anna
+Augusta
+Bertha
+Birgit
+Christa
+Christina
+Edith
+Elfriede
+Elisabeth
+Elke
+Emma
+Erika
+Erna
+Frieda
+Gabriele
+Gerda
+Gisela
+Heike
+Helga
+Hildegard
+Ilse
+Ingrid
+Irmgard
+Julia
+Karin
+Karola
+Katrin
+Lieselotte
+Margarethe
+Martha
+Martina
+Melanie
+Monika
+Nadine
+Nicole
+Petra
+Renate
+Sabine
+Sabrina
+Sandra
+Sophia
+Sofia
+Sophie
+Sofie
+Stefanie
+Susanne
+Ute
+
+Table: GermanSurnames
+3:Müller //	miller
+3:Schmidt //	smith
+3:Schneider// 	taylor
+2:Fischer 	//fisher
+2:Weber// 	weaver
+2:Schäfer// 	shepherd
+Meyer //	(MHG) steward of landholder; leaseholder
+Wagner //	wagoner
+Becker //	from Bäcker >baker
+Bauer //	farmer
+Hoffmann //	landed farmer
+Schulz //	mayor
+Koch //	cook
+Richter //	judge
+Klein //	small
+Wolf //	wolf
+Schröder //	carter
+Neumann //	new man
+Braun 	//brown
+Werner 	//(OHG) defense army
+Schwarz //	black
+Hofmann //	landed farmer
+Zimmermann// 	carpenter
+Schmitt //	Smith
+Hartmann //	strong man
+Schmid // 	Smith
+Weiß //	white
+Schmitz // 	Smith
+Krüger //	potter
+Lange //	long
+Meier //	(MHG) steward of land; leaseholder
+Walter //	leader, ruler
+Köhler //	charcoal-maker
+Maier //	(MHG) steward of landholder; leaseholder
+Beck //	from Bach–stream; Bäcker–baker
+König //	king
+Krause //	curly-haired
+Schulze //	mayor
+Huber //	landowner
+Mayer //	steward of landholder; leaseholder
+Frank //	from Franconia
+Lehmann //	serf
+Kaiser //	emperor
+Fuchs //	fox
+Herrmann //	warrior
+Lang //	long
+Thomas //	(Aramaic) twin
+Peters //	(Greek) rock
+Stein //	rock, stone
+Jung //	young
+Möller //	miller
+Berger //	from French–shepherd
+Martin //	(Latin) war-like
+Friedrich //	(OHG) fridu–peace, rihhi–powerful
+Scholz //	mayor
+Keller //	cellar
+Groß //	big
+Hahn //	rooster
+Roth //	from rot–red
+Günther //	(Scandinavian) warrior
+Vogel //	bird
+Schubert //	(MHG) Schuochwürchte–shoemaker
+Winkler //	from Winkel–angle
+Schuster //	shoemaker; Jäger–hunter
+Lorenz //	(Latin) Laurentius
+Ludwig //	(OHG) luth–famous, wig–war
+Baumann //- 	farmer
+Heinrich //	(OHG) heim–home and rihhi–powerful
+Otto //	OHG ot–property, inheritance
+Simon //	(Hebrew) God has listened
+Graf //	count, earl
+Kraus //	curly-haired
+Krämer //	small trader, dealer
+Böhm 	//of Bohemia
+Schulte //	from Schultheiß–debt-broker
+Albrecht //	(OHG) adal–noble, bereht–famous
+Franke //	(Old French) Franconia
+Winter //	winter
+Schumacher //	cobbler, shoemaker
+Vogt //	steward
+Haas //	(MHG) nickname for rabbit hunter; coward
+Sommer //	summer
+Schreiber // 	writer, scribe
+Engel //	angel
+Ziegler // 	brickmaker
+Dietrich //	(OHG) people’s ruler
+Brandt //	fire, burn
+Seidel //	mug
+Kuhn //	councilman
+Busch //	bush
+Horn //	horn
+Arnold //	(OHG) strength of an eagle
+Kühn //	councilman
+Bergmann //	miner
+Pohl //	Polish
+Pfeiffer //	piper
+Wolff //	wolf
+Voigt //	steward
+Sauer
+Weber
+Becker
+Schäfer
+Richter
+Schröder //wine shipper or tailor
+Zimmerman
+Braun
+Hofmann //steward or courtier
+Hartmann
+Werner
+Meier
+Lehmann
+Lehr
+König //King
+Baehr  // Bear
+Scholz //mayor
+Weiß //white haired or white skinned
+Jung //young one
+Junker //Young Noble
+Schubert //shoemaker
+Vogel //bird
+Friedrich //prince of peace
+Keller //winemaker
+Roth //red haired
+Beck //Baker
+Baumann //farmer or peasant
+Stein //rock
+Jäger //hunter
+Seidel
+Brandt //fire
+Graf //count
+Ziegler
+Kuhn
+Busch
+Voight
+
+
+
