@@ -1,0 +1,44 @@
+// Phillipino Names
+//by the gamedaddy dirk.collins@frontier.com
+// Novemeber 16th, 2019
+// updated January 8th, 2020
+
+
+Table: TopFilipinoNames
+5:[@FilipinoMale]
+5:[@FilipinoFemale] -f
+
+
+Table: FilipinoMale
+[@FilipinoMaleNames] [@FilipinoSurnames]
+
+Table: FilipinoFemale
+[@FilipinoFemNames] [@FilipinoSurnames]
+
+Table: FilipinoMale
+
+
+Table: FilipinoFemale
+
+
+
+
+Table: FilipinoSurnames
+Santos
+Reyes
+Cruz
+Bautista
+Del Rosario
+Ramos
+Aquino
+Dela Cruz
+Lopez
+Frenandez
+Mendoza
+Morales
+Marquez
+Hernandez
+Navarro
+Sanchez
+Delos Reyes
+Delos Santos

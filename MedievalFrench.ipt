@@ -13,12 +13,12 @@ Table: MedeivalFrenchNames
 #
 Table: FrenchFantasyNam
 16:[@FranceFirst]
-4:[@FranceFirst] du [@FranceNamLoc]
-4:[@FranceFirst] la [@FranceFirst]
 12:[@FranceFirst] [@FranceFirst] [@FranceFamilyname]
 8:[@FranceFirst] [@FranceFamilyname] 
+4:[@FranceFirst] la [@FranceFirst]
+4:[@FranceFirst] du [@FranceNamLoc]
 4:[@FranceFirst] [@FranceFamilyname] du [@FranceNamLoc]
-3:<i>[@FranceFirst] [@FranceFirst] [@FranceNoblename]</i> [@FrenchTitle]- Noble or Highborn
+#3:<i>[@FranceFirst] [@FranceFirst] [@FranceNoblename]</i> [@FrenchTitle]- Noble or Highborn
 2:<i>[@FranceFirst] [@FranceNoblename]</i> [@FrenchTitle]- Noble or Highborn
 1:<i>[@FranceFirst] [@FranceNoblename] of the [@FranceNamLoc]</i> [@FrenchTitle]- Noble or Highborn
 
@@ -27,12 +27,13 @@ Table: FrenchFantasyNam
 #
 Table: FrenchFemNam
 16:[@FranceFemFirst] 
-4:[@FranceFemFirst] du [@FranceNamLoc] 
-4:[@FranceFemFirst] la [@FranceFemFirst] 
 12:[@FranceFemFirst] [@FranceFemFirst] [@FranceFamilyname] 
 8:[@FranceFemFirst] [@FranceFamilyname] 
+4:[@FranceFemFirst] du [@FranceNamLoc] 
+4:[@FranceFemFirst] la [@FranceFemFirst] 
+8:[@FranceFemFirst] [@FranceFamilyname] 
 4:[@FranceFemFirst] [@FranceFamilyname] du [@FranceNamLoc]
-3:<i>[@FranceFemFirst] [@FranceFemFirst] [@FranceNoblename]</i> [@FranceFemTitle]- Noble or Highborn
+#3:<i>[@FranceFemFirst] [@FranceFemFirst] [@FranceNoblename]</i> [@FranceFemTitle]- Noble or Highborn
 2:<i>[@FranceFemFirst] [@FranceNoblename]</i> [@FranceFemTitle]- Noble or Highborn
 1:<i>[@FranceFemFirst] [@FranceNoblename] du [@FranceNamLoc]</i> [@FranceFemTitle]- Noble or Highborn
 
@@ -41,31 +42,25 @@ Table: FrenchFemNam
 #French Male First Names
 Table: FranceFirst
 [@MaleFrench]
-[@MaleNorman]
-[@MaleProvencal]
-[@MaleOccitanie]
-[@MaleAuvergne]
-[@MalePays]
-[@MaleBrittany]
-[@MaleCentre]
-[@MaleHaut]
-[@MaleIDF]
-[@MaleBourgogne]
-[@MaleRhone]
-[@MaleAquitane]
+#[@MaleNorman]
+#[@MaleProvencal]
+#[@MaleOccitanie]
+#[@MaleAuvergne]
+#[@MalePays]
+#[@MaleBrittany]
+#[@MaleBourgogne]
+#[@MaleRhone]
+#[@MaleAquitane]
 
 #French Female First Names
 Table: FranceFemFirst
 [@FemaleFrench] -f
-[@FemNorman] -f 
+#[@FemNorman] -f 
 [@FemProvencal] -f 
 [@FemOccitanie] -f
 [@FemaleAuvergne] -f
 [@FemPays] -f 
 [@FemBrittany] -f 
-[@FemCentre] -f
-[@FemHaut] -f
-[@FemIDF] -f 
 [@FemBourgogne] -f 
 [@FemRhone] -f
 [@FemAquitane] -f
@@ -80,14 +75,12 @@ Table: FranceFamilyname
 [@PaysLastName] du [@PaysDeLaLoirePlaces]
 [@BrittanyLastName] du [@BrittanyPlaces]
 [@CentreLastName] du [@CentreValDeLoirePlaces]
-[@HautsLastName] du [@HautsDeFrancePlaces]
-[@IDFLastName] du [@IDFPlaces]
 [@GrandEstLastName] du [@GrandEstPlaces]
 [@BourgogneLastName] du [@BourgognePlaces]
 [@RhoneLastName] du [@RhoneAlpsPlaces]
 [@AquitaneLastName] du [@AquitainePlaces]
 
-#Historical Names of French Noble Families
+#Historical Names of French Families
 Table: FranceNoblename
 [@FrenchNobles]
 [@NormanNobles] du [@NormandyPlaces]
@@ -97,8 +90,6 @@ Table: FranceNoblename
 [@PaysNobles] du [@PaysDeLaLoirePlaces]
 [@BrittanyNobles] du [@BrittanyPlaces]
 [@CentreNobles] du [@CentreValDeLoirePlaces]
-[@HautsNobles] du [@HautsDeFrancePlaces]
-[@IDFNobles] du [@IDFPlaces]
 [@GrandEstNobles] du [@GrandEstPlaces]
 [@BourgogneNobles] du [@BourgognePlaces]
 [@AuvergneNobles] du [@AuvergnePlaces]
@@ -148,7 +139,7 @@ Table: FranceNamLoc
 [@AquitainePlaces]
 
 #French Male Names
-Table:MaleFrench
+Table: MaleFrench
 Aaron
 Abdoul
 Abdoulaye
@@ -956,6 +947,80 @@ Zéra
 Zérane
 Zite
 Zoé 
+
+Table: MaleRhone
+Kevin
+Gabriel
+Louis
+Raphael
+Leo
+Lucas
+Jules
+Adam
+Arthur
+Nathan
+Hugo
+Enzo
+Ethan
+Mathis
+Tom
+Noah
+Maxime
+Yanis
+Adam
+Thomas
+Leo
+Paul
+Evan
+Nolan
+Pierre
+Julien
+Quentin
+Nicolas
+Clement
+Romaine
+Florian
+Guillame
+Valentin
+Jérémy
+Alexis
+Anthony
+Theo
+Mathieu
+Benjamin
+Adrien
+Vincent
+Alex
+Babtiste
+Dylan
+Corentin
+Thibault
+Jordan
+Nathan
+Simon
+Axel
+Leo
+Sabastien
+Aurélien
+Victor
+Loïc
+Rémi
+Arnaud
+Jonathan
+Damien
+François
+Robin
+martin
+Dorian
+Tristan
+Samuel
+Thibault
+Benoit
+Fabien
+Florent
+Jérôme
+
+
 
 Table: MaleNorman
 Âbréhan
@@ -1882,22 +1947,552 @@ Simone
 Emilie
 Edith
 
+Table: MaleBrittany
+2:Nathan
+2:Enzo
+Jean
+Philippe
+Thomas
+Julien
+Maél
+Titouan
+Malo
+Loan
+Naél 
+Lénaig
+Yannig
+Gaél 
+Morgan
+Noan
+Logan
+Nolan
+Alban
+Gwendal
+Gwen
+Elouan
+Iouen
+Ewen
+Briac
+Tangi
+Tanguy
+Ronan
+Gwénaél
+Gurvan
+Yann
+Loic
+Loig
+Mahé
+Madech
+Edern
+Gwilherm
+Hoél
+Morvan
+Pierrick
+Pierig
 
-Table: MaleProvencal
 
-Table: FemProvencal
+Table: FemBrittany
+2:Emma
+2:Lola
+Marie
+Sylvie
+Nathalie
+Maélle
+Loane
+Maél
+Naél
+Gaél 
+Morgan
+Maéline
+Maélan
+Maéthan
+Erwanaél
+Megan
+Bleuenn //(‘white flower’)
+Soizic //(Breton equivalent for Françoise)
+Solenn
+Léna
+Maiwenn //(a mix of Marie and Gwen)
+Enora
+Gwénola
+Katell
+Klervi
+Tifenn
+Morane //(‘the sea’)
+Sterenn
+Naig //(equivalent of Anne)
+Loeiza //(equivalent of Louisa)
+Orégane //
+Servane
+Privela //(‘charisma ‘)
 
-Table: MaleOccitanie
 
-Table: FemOccitanie
 
-Table: MaleAuvergne
+Table: MaleCentre
+Mael
+Étienne
+Thibaut
+Aubin
+Amaury
+Thierry
+Tanguy
+Mathis
+Emilien
+Aurélien
+Gaetan
+Marceau
+Maxence
+Rainier
+Gabin
+Benoit
+Laurent
+Didier
+Alain
+Basile
+Blaise
+Guillaume
+Luc
+Olivier
+Remi
+Valentin
 
-Table: FemAuvergne
 
-Table: MalePays
+Table: FemCentre
+Ines
+Maeva
+Fabienne
+Severine
+Lucienne
+Armel
+Manon
+Anaelle
+Maelle
+Lou
+Lea
+Salome
+Elodie
+Axelle
+Flavie
+Isaline
+Mailys
+Leonie
+Lilou
+Faustine
+Clea
+Romane
+Maelys
+Fleur
+Clemence
+Danique
+Prune
+Marguerite
 
-Table: FemPays
+
+Table: MaleBourgogne
+Kevin
+Gabriel
+Louis
+Raphael
+Leo
+Lucas
+Jules
+Adam
+Arthur
+Nathan
+Hugo
+Enzo
+Ethan
+Mathis
+Tom
+Noah
+Maxime
+Yanis
+Adam
+Thomas
+Leo
+Paul
+Evan
+Nolan
+Pierre
+Julien
+Quentin
+Nicolas
+Clement
+Romaine
+Florian
+Guillame
+Valentin
+Jérémy
+Alexis
+Anthony
+Theo
+Mathieu
+Benjamin
+Adrien
+Vincent
+Alex
+Babtiste
+Dylan
+Corentin
+Thibault
+Jordan
+Nathan
+Simon
+Axel
+Leo
+Sabastien
+Aurélien
+Victor
+Loïc
+Rémi
+Arnaud
+Jonathan
+Damien
+François
+Robin
+martin
+Dorian
+Tristan
+Samuel
+Thibault
+Benoit
+Fabien
+Florent
+Jérôme
+
+
+
+Table: FemBourgogne
+7:Marie
+2:Jeanne
+2:Marguerite
+2:Antoinette
+2:Francoise
+2:Madeline
+2:Catherine
+2:Hélène
+7:Emma
+6:Louise
+5:Jade
+5:Alice
+4:Chloé
+4:Léa
+4:manon
+4:Lina
+4:Mila
+Manon
+Lola
+Camille
+Sarah
+Lilou
+Clara
+Eva
+Luna
+Romane
+Maelys
+Juliette
+Lucy
+Zoe
+Ambre
+Lou
+Lisa
+Jeanne
+Louanne
+Matilda
+Charlotte
+Marie
+Anna
+Anais
+Pauline
+Laura
+Alicia
+Julia
+Rose
+Margaux
+Noemie
+Elise
+Margot
+Elsa
+Justine
+Agathe
+Inaya
+Yasmine
+Emilie
+Faustine
+Maelle
+Gabrielle
+Sofia
+Capucine
+Marion
+Olivia
+Eloise
+Valentine
+Morgane
+Marine
+Clara
+Lisa
+Mélanie
+Elodie
+Claire
+Alice
+Amandine
+Audrey
+
+
+
+
+Table: FemRhone
+7:Marie
+6:Jeanne
+4:Marguerite
+2:Antoinette
+2:Francoise
+2:Madeline
+2:Catherine
+2:Hélène
+7:Emma
+6:Louise
+5:Jade
+5:Alice
+4:Chloé
+4:Léa
+4:manon
+4:Lina
+4:Mila
+Manon
+Lola
+Camille
+Sarah
+Lilou
+Clara
+Eva
+Luna
+Romane
+Maelys
+Juliette
+Lucy
+Zoe
+Ambre
+Lou
+Lisa
+Jeanne
+Louanne
+Matilda
+Charlotte
+Marie
+Anna
+Anais
+Pauline
+Laura
+Alicia
+Julia
+Rose
+Margaux
+Noemie
+Elise
+Margot
+Elsa
+Justine
+Agathe
+Inaya
+Yasmine
+Emilie
+Faustine
+Maelle
+Gabrielle
+Sofia
+Capucine
+Marion
+Olivia
+Eloise
+Valentine
+Morgane
+Marine
+Clara
+Lisa
+Mélanie
+Elodie
+Claire
+Alice
+Amandine
+Audrey
+Ines
+Maeva
+Fabienne
+Severine
+Lucienne
+Armel
+Manon
+Anaelle
+Maelle
+Lou
+Lea
+Salome
+Elodie
+Axelle
+Flavie
+Isaline
+Mailys
+Leonie
+Lilou
+Faustine
+Clea
+Romane
+Maelys
+Fleur
+Clemence
+Danique
+Prune
+Marguerite
+
+Table: MaleAquitane
+Kevin
+Gabriel
+Louis
+Raphael
+Leo
+Lucas
+Jules
+Adam
+Arthur
+Nathan
+Hugo
+Enzo
+Ethan
+Mathis
+Tom
+Noah
+Maxime
+Yanis
+Adam
+Thomas
+Leo
+Paul
+Evan
+Nolan
+Pierre
+Julien
+Quentin
+Nicolas
+Clement
+Romaine
+Florian
+Guillame
+Valentin
+Jérémy
+Alexis
+Anthony
+Theo
+Mathieu
+Benjamin
+Adrien
+Vincent
+Alex
+Babtiste
+Dylan
+Corentin
+Thibault
+Jordan
+Nathan
+Simon
+Axel
+Leo
+Sabastien
+Aurélien
+Victor
+Loïc
+Rémi
+Arnaud
+Jonathan
+Damien
+François
+Robin
+martin
+Dorian
+Tristan
+Samuel
+Thibault
+Benoit
+Fabien
+Florent
+Jérôme
+
+Table: FemAquitane
+7:Marie
+6:Jeanne
+4:Marguerite
+2:Antoinette
+2:Francoise
+2:Madeline
+2:Catherine
+2:Hélène
+7:Emma
+6:Louise
+5:Jade
+5:Alice
+4:Chloé
+4:Léa
+4:manon
+4:Lina
+4:Mila
+Manon
+Lola
+Camille
+Sarah
+Lilou
+Clara
+Eva
+Luna
+Romane
+Maelys
+Juliette
+Lucy
+Zoe
+Ambre
+Lou
+Lisa
+Jeanne
+Louanne
+Matilda
+Charlotte
+Marie
+Anna
+Anais
+Pauline
+Laura
+Alicia
+Julia
+Rose
+Margaux
+Noemie
+Elise
+Margot
+Elsa
+Justine
+Agathe
+Inaya
+Yasmine
+Emilie
+Faustine
+Maelle
+Gabrielle
+Sofia
+Capucine
+Marion
+Olivia
+Eloise
+Valentine
+Morgane
+Marine
+Clara
+Lisa
+Mélanie
+Elodie
+Claire
+Alice
+Amandine
+Audrey
+
 
 Table: MaleFrench
 6:Jean
@@ -2229,6 +2824,55 @@ Dinard
 2:Nantes
 Croz
 
+Table: BourgognePlaces
+7:Dijon
+5:Chalon-sur-Saône
+3:Nevers
+Auxerre
+Mâcon 
+Sens
+Le Creusot
+Beaune
+Montceau-les-Mines 
+Autun
+Chenôve 
+Talant
+Cosne-Cours-sur-Loire 
+Joigny
+Quetigny
+Varennes-Vauzelles
+Chevigny-Saint-Sauveur 
+Longvic
+Paray-le-Monial
+Saint-Vallier
+Fontaine-lès-Dijon 
+Digoin
+Geugnon
+
+Table: NormandyPlaces
+7:Caen 
+5:Cherbourg-Octeville 
+3:Alençon 
+Lisieux 
+Hérouville-Saint-Clair 
+Saint-Lô 
+Équeurdreville-Hainneville
+Tourlaville 
+Flers 
+Argentan 
+Bayeux 
+Granville 
+Vire 
+Ifs 
+Mondeville 
+Coutances 
+Ouistreham 
+L'Aigle 	
+Falaise 
+Avranches 
+Honfleur 
+Valognes 
+La Ferté-Macé 
 
 
 
@@ -2264,10 +2908,5 @@ Croz
 
 
 
-
-
-
-
- 
 
 

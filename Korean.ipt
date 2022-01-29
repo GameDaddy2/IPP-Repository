@@ -1,0 +1,79 @@
+//Korean Name Generator
+//by the gamedaddy dirk.collins@frontier.com
+// Nov 16th, 2019
+
+Table: Korean
+3:[@KoreanName][@KoreanName]  [@KoreanName]
+2:[@KoreanName]-[@KoreanName]  [@KoreanName]
+2:[@KoreanName]-[@KoreanName]  [@KoreanName]-[@KoreanName]
+1:[@KoreanName]-[@KoreanName]
+1:[@KoreanName]
+
+
+Table: KoreanName
+Kim
+Lee
+Park
+Choi
+Jeong
+Jung
+Chung
+Cho
+Yoon
+Jang
+Lim
+Han
+O
+Seo
+Shin
+Kwon
+Hwang
+Ahn
+Song
+Yoo
+Yu
+Ryu
+Jeon
+Jun
+Cheon
+Hong
+Ko
+Goh
+Mun
+Moon
+Yang
+Son
+Bae
+Jo
+Cho
+Baek
+Paik
+Bak
+Pak
+Hur
+Yu
+Yoo
+Nam
+Nham
+Sim
+Shen
+No
+Roh
+Joeng
+Ha
+Gwak
+Cha
+Ju
+Joo
+Zhu
+Zuu
+Woo
+U
+Gu
+Koo
+Shin
+Na
+Jun
+Min
+Ji
+Eom
